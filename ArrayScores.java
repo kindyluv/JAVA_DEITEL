@@ -1,5 +1,6 @@
 package ChapterSeven;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayScores {
@@ -13,14 +14,15 @@ public class ArrayScores {
             System.out.println("Enter scores: " + (i+1));
             score[i] = input.nextInt();
         }
-
+        System.out.println("The sum value is: " + uncleChiBobArray(score));
+        System.out.println("The second sum is: " + uncleChiBobArrays(score));
         System.out.println("The smallest value is: " + calculateMinimumValesOf(score));
         System.out.println("The largest value is: " + calculateMaximumValesOf(score));
         System.out.println("The total value is: " + calculateTotalValuesOf(score));
-        System.out.println("The average value is: " + calculateAverageValuesOf(score) + "\n");
+        System.out.println("The average value is: " + Arrays.toString(score));
 
         for (int j : score) {
-            System.out.println("The students scores is: \n" + j);
+            System.out.println("The students scores is: " + j);
         }
     }
 
@@ -57,4 +59,25 @@ public class ArrayScores {
         return averageValue;
     }
 
+    public static int uncleChiBobArray(int... score){
+        int sum = score[0];
+        for (int i = 0; i < score.length; i++){
+            sum += score[i];
+        }
+        return sum;
+    }
+
+    public static int[] uncleChiBobArrays(int...score) {
+        int[] firstNumber = {2, 3, 4, 1, 5};
+        int totals = uncleChiBobArray(score);
+        int[] secondNumber = new int[firstNumber.length];
+        for (int i = 0; i < secondNumber.length; ) {
+            for (int sumCollector : firstNumber) {
+                int collect = totals - sumCollector;
+                secondNumber[i] = collect;
+                i++;
+            }
+        }
+        return secondNumber;
+    }
 }
