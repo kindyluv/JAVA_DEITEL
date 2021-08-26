@@ -98,18 +98,22 @@ public class StudentRecord {
 
     public static void getStudentRankingPerStudent() {
         int rank = 0;
-   int position = 0;
-   for (int i = 0; i < studentNative.length; i++){
-       int total = 0;
-       for (int j = 0; j < studentNative.length;j++){
-           total += studentNative[i][j];
-           if (total > rank){
-               position = 1;
-           }else
-               System.out.println("later");
-       }
-       System.out.println(position);
-   }
+         int position = 0;
+         int row = 0;
+         int column = 0;
+         for (int i = 0; i < studentNative.length; i++) {
+             int total = 0;
+             for (int j = 0; j < studentNative.length; j++) {
+                 total += studentNative[i][j];
+                 if (total > rank) {
+                     position = 1;
+                     row = i;
+                 }else
+                     position = 4;
+                 column = i;
+             }
+         }
+       System.out.println("Student " + (row + 1) + position);
     }
 
 
