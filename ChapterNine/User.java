@@ -1,10 +1,10 @@
 package ChapterNine;
 
-public class User extends ElectronicStore{
+public class User{
     private int age;
-    private String emailAddress;
-    private String HomeAddress;
-    private String useName;
-    private int password;
-    private int phone;
+    private String email;
+    private Address houseAddress;
+    private String userName;
+    private String password;
+    private String phone;
 }
