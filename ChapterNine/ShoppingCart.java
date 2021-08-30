@@ -1,5 +1,7 @@
 package ChapterNine;
 
+import java.util.ArrayList;
+
 public class ShoppingCart extends Customers{
-    private String Items;
+    private ArrayList<Item> items;
 }
