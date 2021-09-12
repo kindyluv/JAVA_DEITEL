@@ -69,8 +69,8 @@ public class Date {
             return year;
         }
 
-//        public String displayDate () {
-//            return (String) "" + day + "/" + month + "/" + year;
-//        }
+        public String displayDate () {
+            return (String) "" + day + "/" + month + "/" + year;
+        }
 
     }
