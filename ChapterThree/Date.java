@@ -64,11 +64,11 @@ public class Date {
         public void setYear ( int year){
             this.year = year;
         }
-//
-//        public int getYear () {
-//            return year;
-//        }
-//
+
+        public int getYear () {
+            return year;
+        }
+
 //        public String displayDate () {
 //            return (String) "" + day + "/" + month + "/" + year;
 //        }
