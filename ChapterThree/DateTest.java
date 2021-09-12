@@ -49,12 +49,12 @@ class DateTest {
       assertEquals(1, date.getMonth());
   }
 
-//  @Test
-//  void monthCannotExceed12Test(){
-//      date.setMonth(13);
-//      assertEquals(12, date.getMonth());
-//  }
-//
+  @Test
+  void monthCannotExceed12Test(){
+      date.setMonth(13);
+      assertEquals(12, date.getMonth());
+  }
+
 //  @Test
 //  void canDisplayDayMonthYearTest() {
 //      date.setDay(6);
