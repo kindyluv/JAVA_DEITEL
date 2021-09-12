@@ -60,10 +60,10 @@ public class Date {
         public int getMonth () {
             return month;
         }
-//
-//        public void setYear ( int year){
-//            this.year = year;
-//        }
+
+        public void setYear ( int year){
+            this.year = year;
+        }
 //
 //        public int getYear () {
 //            return year;
