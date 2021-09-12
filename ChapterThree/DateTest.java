@@ -29,13 +29,13 @@ class DateTest {
       assertEquals(29, date.getDay());
   }
 
-//  @Test
-//  void septemberAprilJuneNovemberCannotExceed30DaysTest() {
-//      date.setMonth(4);
-//      date.setDay(31);
-//      assertEquals(30, date.getDay());
-//  }
-//
+  @Test
+  void septemberAprilJuneNovemberCannotExceed30DaysTest() {
+      date.setMonth(4);
+      date.setDay(31);
+      assertEquals(30, date.getDay());
+  }
+
 //  @Test
 //  void januaryMarchMayJulyAugustOctoberDecemberCannotExceed31DaysTest() {
 //      date.setMonth(10);
