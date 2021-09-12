@@ -23,9 +23,9 @@ public class PersonalSortArray {
             smallestNumber = array[array.length-x];
             x++;
         }
-        smallestNumber = array.length;
-        highestNumber = array[4];
-        System.out.println(Arrays.toString(array));
+//        smallestNumber = array.length;
+//        highestNumber = array[4];
+//        System.out.println(Arrays.toString(array));
         System.out.printf("%d%n%d",smallestNumber, highestNumber);
         return array;
     }
