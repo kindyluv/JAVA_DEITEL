@@ -16,6 +16,13 @@ public class PersonalSortArray {
                 }
             }
         }
+        highestNumber = array[array.length-1];
+        int x = 2;
+        smallestNumber = array[array.length - x];
+        while (smallestNumber == highestNumber){
+            smallestNumber = array[array.length-x];
+            x++;
+        }
         smallestNumber = array.length;
         highestNumber = array[4];
         System.out.println(Arrays.toString(array));
