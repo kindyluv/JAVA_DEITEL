@@ -19,13 +19,13 @@ public class Date {
         this.day = day;
         this.year = year;
     }
-//
-//    public void setDay(int day) {
-//        boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
-//        boolean isSeptemberAprilJuneNovember = (month == 4 || month == 6 || month == 9 || month == 11);
-//        boolean isJanuaryMarchMayJulyAugustOctoberDecember = (month == 1 || month == 3 || month == 7 || month == 8 ||
-//                month == 10 || month == 12);
-//
+
+    public void setDay(int day) {
+        boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+        boolean isSeptemberAprilJuneNovember = (month == 4 || month == 6 || month == 9 || month == 11);
+        boolean isJanuaryMarchMayJulyAugustOctoberDecember = (month == 1 || month == 3 || month == 7 || month == 8 ||
+                month == 10 || month == 12);
+
 //        if (day >= 1) {
 //            if (month == 2 && isLeapYear && day <= 29) {
 //                this.day = day;
