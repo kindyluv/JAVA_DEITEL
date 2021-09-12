@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class myersBriggsThree {
  public static String[] array;
- public static char[] collectAnswer;
+ public static char[] userResponses;
 
-    public static String[] displayQuestions() {
-    String[] array = {
+    public static String[] questions() {
+    String[] question = {
 
      """
      1 a. expend energy enjoy groups                           b. conserve energy, enjoy one-on-one""",
@@ -52,47 +52,47 @@ public class myersBriggsThree {
      """
      20 a. control, govern                                     b. latitude, freedom""",
      };
-    return array;
+    return question;
     }
 
-    public static void collectAnswer(){
-        array = displayQuestions();
+    public static void answer(){
+        array = questions();
         Scanner scanner = new Scanner(System.in);
-        collectAnswer = new char[array.length];
+        userResponses = new char[array.length];
         for (int i = 0; i < array.length; i++){
             System.out.println(array[i]);
 
-                collectAnswer[i] = scanner.next().charAt(0);
-                System.out.println(Arrays.toString(collectAnswer));
+                userResponses[i] = scanner.next().charAt(0);
+                System.out.println(Arrays.toString(userResponses));
             }
         }
 
     public static void displayResult(){
 
-        String ise =String.format("%6s%6s%6s", " ","A","B");
-        System.out.println(ise.repeat(4));
+        String table =String.format("%6s%6s%6s", " ","A","B");
+        System.out.println(table.repeat(4));
         System.out.println("=".repeat(80));
         for (int i = 1; i < array.length; i+=4) {
             System.out.printf("%6d", i);
-            if (collectAnswer[i - 1] == 'A' || collectAnswer[i - 1] == 'a') {
+            if (userResponses[i - 1] == 'A' || userResponses[i - 1] == 'a') {
                 System.out.printf("%6s%6s", "A", " ");
             }else{
                 System.out.printf("%6s%6s", " ","B");
             }
             System.out.printf("%6d", i + 1);
-            if (collectAnswer[i] == 'A' || collectAnswer[i] == 'a') {
+            if (userResponses[i] == 'A' || userResponses[i] == 'a') {
                 System.out.printf("%6s%6s", "A", " ");
             }else{
                 System.out.printf("%6s%6s", " ","B");
             }
             System.out.printf("%6d", i + 2);
-            if (collectAnswer[i + 1] == 'A' || collectAnswer[i + 1] == 'a') {
+            if (userResponses[i + 1] == 'A' || userResponses[i + 1] == 'a') {
                 System.out.printf("%6s%6s", "A", " ");
             }else{
                 System.out.printf("%6s%6s", " ","B");
             }
             System.out.printf("%6d", i + 3);
-            if (collectAnswer[i + 2] == 'A' || collectAnswer[i + 2] == 'a') {
+            if (userResponses[i + 2] == 'A' || userResponses[i + 2] == 'a') {
                 System.out.printf("%6s%6s", "A", " ");
             }else{
                 System.out.printf("%6s%6s", " ","B");
@@ -109,27 +109,27 @@ public class myersBriggsThree {
         for (int i = 0; i < 4; i++) {
             countA = 0;
             countB = 0;
-            if (collectAnswer[i] == 'a' || collectAnswer[i] == 'A'){
+            if (userResponses[i] == 'a' || userResponses[i] == 'A'){
                 countA++;
             }else {
                 countB++;
             }
-            if (collectAnswer[i+4] == 'a' || collectAnswer[i+4] == 'A'){
+            if (userResponses[i+4] == 'a' || userResponses[i+4] == 'A'){
                  countA++;
             }else {
                 countB++;
             }
-            if (collectAnswer[i+8] == 'a'|| collectAnswer[i+8] == 'A'){
+            if (userResponses[i+8] == 'a'|| userResponses[i+8] == 'A'){
                 countA++;
             }else {
                 countB++;
             }
-            if (collectAnswer[i+12] == 'a' || collectAnswer[i+12] == 'A'){
+            if (userResponses[i+12] == 'a' || userResponses[i+12] == 'A'){
                 countA++;
             }else {
                 countB++;
             }
-            if (collectAnswer[i+16] == 'a' || collectAnswer[i+16] == 'A'){
+            if (userResponses[i+16] == 'a' || userResponses[i+16] == 'A'){
                 countA++;
             }else {
                 countB++;
@@ -139,7 +139,7 @@ public class myersBriggsThree {
     }
 
     public static void main(String[] args) {
-        collectAnswer();
+        answer();
         displayResult();
         getTotalResponse();
     }
