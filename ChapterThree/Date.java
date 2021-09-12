@@ -26,27 +26,27 @@ public class Date {
         boolean isJanuaryMarchMayJulyAugustOctoberDecember = (month == 1 || month == 3 || month == 7 || month == 8 ||
                 month == 10 || month == 12);
 
-//        if (day >= 1) {
-//            if (month == 2 && isLeapYear && day <= 29) {
-//                this.day = day;
-//            } else if (month == 2 && day <= 28) {
-//                this.day = day;
-//            } else if (isSeptemberAprilJuneNovember && day < 31) {
-//                this.day = day;
-//            } else if (isSeptemberAprilJuneNovember && day >= 31) {
-//                this.day = 30;
-//            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day < 32) {
-//                this.day = day;
-//            }else if (isJanuaryMarchMayJulyAugustOctoberDecember && day >= 32) {
-//                this.day = 31;
-//            }
-//        }
-//    }
-//
-//        public int getDay () {
-//            return day;
-//        }
-//
+        if (day >= 1) {
+            if (month == 2 && isLeapYear && day <= 29) {
+                this.day = day;
+            } else if (month == 2 && day <= 28) {
+                this.day = day;
+            } else if (isSeptemberAprilJuneNovember && day < 31) {
+                this.day = day;
+            } else if (isSeptemberAprilJuneNovember && day >= 31) {
+                this.day = 30;
+            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day < 32) {
+                this.day = day;
+            }else if (isJanuaryMarchMayJulyAugustOctoberDecember && day >= 32) {
+                this.day = 31;
+            }
+        }
+    }
+
+        public int getDay () {
+            return day;
+        }
+
 //        public void setMonth ( int month){
 //            if (month > 0 && month <= 12) {
 //                this.month = month;
