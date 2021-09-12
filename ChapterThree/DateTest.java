@@ -12,14 +12,14 @@ class DateTest {
       date.setDay(0);
       assertEquals(1, date.getDay());
   }
-//
-//  @Test
-//  void februaryCannotExceed28DaysInANormalYearTest() {
-//      date.setYear(2001);
-//      date.setMonth(2);
-//      date.setDay(28);
-//      assertEquals(28, date.getDay());
-//  }
+
+  @Test
+  void februaryCannotExceed28DaysInANormalYearTest() {
+      date.setYear(2001);
+      date.setMonth(2);
+      date.setDay(28);
+      assertEquals(28, date.getDay());
+  }
 //
 //  @Test
 //  void februaryCannotExceed29DaysInALeapYearTest() {
