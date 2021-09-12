@@ -55,11 +55,11 @@ class DateTest {
       assertEquals(12, date.getMonth());
   }
 
-//  @Test
-//  void canDisplayDayMonthYearTest() {
-//      date.setDay(6);
-//      date.setMonth(9);
-//      date.setYear(1994);
-//      assertEquals("6/9/1994", date.displayDate());
-//  }
+  @Test
+  void canDisplayDayMonthYearTest() {
+      date.setDay(6);
+      date.setMonth(9);
+      date.setYear(1994);
+      assertEquals("6/9/1994", date.displayDate());
+  }
 }
