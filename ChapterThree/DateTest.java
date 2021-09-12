@@ -43,12 +43,12 @@ class DateTest {
       assertEquals(31, date.getDay());
   }
 
-//  @Test
-//  void monthCannotBeLowerThan1Test(){
-//      date.setMonth(-1);
-//      assertEquals(1, date.getMonth());
-//  }
-//
+  @Test
+  void monthCannotBeLowerThan1Test(){
+      date.setMonth(-1);
+      assertEquals(1, date.getMonth());
+  }
+
 //  @Test
 //  void monthCannotExceed12Test(){
 //      date.setMonth(13);
