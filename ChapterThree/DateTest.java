@@ -20,15 +20,15 @@ class DateTest {
       date.setDay(28);
       assertEquals(28, date.getDay());
   }
-//
-//  @Test
-//  void februaryCannotExceed29DaysInALeapYearTest() {
-//      date.setYear(2020);
-//      date.setMonth(2);
-//      date.setDay(29);
-//      assertEquals(29, date.getDay());
-//  }
-//
+
+  @Test
+  void februaryCannotExceed29DaysInALeapYearTest() {
+      date.setYear(2020);
+      date.setMonth(2);
+      date.setDay(29);
+      assertEquals(29, date.getDay());
+  }
+
 //  @Test
 //  void septemberAprilJuneNovemberCannotExceed30DaysTest() {
 //      date.setMonth(4);
