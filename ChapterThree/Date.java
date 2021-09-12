@@ -47,16 +47,16 @@ public class Date {
             return day;
         }
 
-//        public void setMonth ( int month){
-//            if (month > 0 && month <= 12) {
-//                this.month = month;
-//            } else if (month < 1) {
-//                this.month = 1;
-//            } else {
-//                this.month = 12;
-//            }
-//        }
-//
+        public void setMonth ( int month){
+            if (month > 0 && month <= 12) {
+                this.month = month;
+            } else if (month < 1) {
+                this.month = 1;
+            } else {
+                this.month = 12;
+            }
+        }
+
 //        public int getMonth () {
 //            return month;
 //        }
