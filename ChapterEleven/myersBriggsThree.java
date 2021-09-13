@@ -63,7 +63,7 @@ public class myersBriggsThree {
             System.out.println(array[i]);
 
                 userResponses[i] = scanner.next().charAt(0);
-                System.out.println(Arrays.toString(userResponses));
+
             }
         }
 
@@ -102,6 +102,7 @@ public class myersBriggsThree {
     }
 
     public static void getTotalResponse(){
+        String [] personalityResult = new String[4];
         System.out.println("=".repeat(80));
         System.out.printf("%6s", "Total");
         int countA;
@@ -135,7 +136,42 @@ public class myersBriggsThree {
                 countB++;
             }
             System.out.printf("%6d%6d%6s", countA, countB, " ");
+
+            switch (i){
+
+                case 0 -> {
+                    if (countA > countB){
+                        personalityResult[i] = "Extrovert";
+                    }else{
+                        personalityResult[i] = "Introvert";
+                    }
+                }
+                case 1-> {
+                    if (countA > countB){
+                        personalityResult[i] = "sensing";
+                    }else {
+                        personalityResult[i] = "intuition";
+                    }
+                }
+                case 2-> {
+                    if (countA > countB) {
+                        personalityResult[i] = "thinking";
+                    }else {
+                        personalityResult[i] = "feeling";
+                    }
+                }
+                case 3-> {
+                    if (countA > countB){
+                        personalityResult[i] = "judging";
+                    }else{
+                        personalityResult[i] = "perspective";
+                    }
+                }
+            }
         }
+        System.out.println("\n" + Arrays.toString(userResponses));
+            System.out.print(Arrays.toString(personalityResult));
+
     }
 
     public static void main(String[] args) {
