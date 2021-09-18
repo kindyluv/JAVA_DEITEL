@@ -109,15 +109,15 @@ public class W3Resource {
         System.out.println("the maximum number is equal to: " + array[array.length - 1]);
     }
 
-//    public static void main(String[] args) {
-//        sortArray();
-//        sumArray();
-//        averageSum();
-//        isInArray();
-//        arrayIndex();
-//    specificArrayElement();
-//        iteratingArray();
-//        specificPosition();
-//        maximumAndMinimum();
-//    }
+    public static void main(String[] args) {
+        sortArray();
+        sumArray();
+        averageSum();
+        isInArray();
+        arrayIndex();
+    specificArrayElement();
+        iteratingArray();
+        specificPosition();
+        maximumAndMinimum();
+    }
 }
