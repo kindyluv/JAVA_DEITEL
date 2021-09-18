@@ -74,15 +74,15 @@ public class W3Resource {
         System.out.println(Arrays.toString(arrays));
     }
 
-//    public static void iteratingArray() {
-//        int[] array1 = {1, 6, 5, 3, 2, 8, 1};
-//        int[] array2 = new int[array1.length];
-//        for (int i = 0; i < array1.length; i++) {
-//            array2[i] = array1[i];
-//        }
-//        System.out.println(Arrays.toString(array2));
-//    }
-//
+    public static void iteratingArray() {
+        int[] array1 = {1, 6, 5, 3, 2, 8, 1};
+        int[] array2 = new int[array1.length];
+        for (int i = 0; i < array1.length; i++) {
+            array2[i] = array1[i];
+        }
+        System.out.println(Arrays.toString(array2));
+    }
+
 //    public static void specificPosition() {
 //        int[] array1 = {1, 6, 5, 3, 2, 8, 1};
 ////        for (int i = 0; i < array1.length; i++) {
