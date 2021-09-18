@@ -39,17 +39,17 @@ public class W3Resource {
         System.out.println(average);
     }
 
-//    public static void isInArray() {
-//        int numberToTest = 5;
-//        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
-//        for (int i = 0; i < array.length; i++) {
-//            if (numberToTest == array[i]) {
-//                System.out.println(true);
-//                break;
-//            }
-//        }
-//    }
-//
+    public static void isInArray() {
+        int numberToTest = 5;
+        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
+        for (int i = 0; i < array.length; i++) {
+            if (numberToTest == array[i]) {
+                System.out.println(true);
+                break;
+            }
+        }
+    }
+
 //    public static void arrayIndex() {
 //        int element = 5;
 //        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
