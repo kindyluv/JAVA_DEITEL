@@ -61,19 +61,19 @@ public class W3Resource {
         }
     }
 
-//    public static void specificArrayElement() {
-//        int number = 5;
-//        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
-//        int[] arrays = new int[7];
-//        for (int i = 0; i < array.length; i++) {
-//            arrays[i] = array[i];
-//            if (number == array[i]) {
-//                continue;
-//            }
-//        }
-//        System.out.println(Arrays.toString(arrays));
-//    }
-//
+    public static void specificArrayElement() {
+        int number = 5;
+        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
+        int[] arrays = new int[7];
+        for (int i = 0; i < array.length; i++) {
+            arrays[i] = array[i];
+            if (number == array[i]) {
+                continue;
+            }
+        }
+        System.out.println(Arrays.toString(arrays));
+    }
+
 //    public static void iteratingArray() {
 //        int[] array1 = {1, 6, 5, 3, 2, 8, 1};
 //        int[] array2 = new int[array1.length];
