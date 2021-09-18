@@ -50,17 +50,17 @@ public class W3Resource {
         }
     }
 
-//    public static void arrayIndex() {
-//        int element = 5;
-//        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
-//        for (int i = 0; i < array.length; i++) {
-//            if (element == array[i]) {
-//                System.out.println(i);
-//                break;
-//            }
-//        }
-//    }
-//
+    public static void arrayIndex() {
+        int element = 5;
+        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
+        for (int i = 0; i < array.length; i++) {
+            if (element == array[i]) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+
 //    public static void specificArrayElement() {
 //        int number = 5;
 //        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
