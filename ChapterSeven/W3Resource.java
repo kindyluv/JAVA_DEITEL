@@ -93,22 +93,22 @@ public class W3Resource {
         System.out.println(Arrays.toString(array1));
     }
 
-//    public static void maximumAndMinimum() {
-//        int[] array = {2, 8, 5, 3, 5, 8, 1};
-//        int temp;
-//        for (int i = 0; i < array.length; i++) {
-//            for (int j = i + 1; j < array.length; j++) {
-//                if (array[i] > array[j]) {
-//                    temp = array[i];
-//                    array[i] = array[j];
-//                    array[j] = temp;
-//                }
-//            }
-//        }
-//        System.out.println("the minimum number is equal to: " + array[0]);
-//        System.out.println("the maximum number is equal to: " + array[array.length - 1]);
-//    }
-//
+    public static void maximumAndMinimum() {
+        int[] array = {2, 8, 5, 3, 5, 8, 1};
+        int temp;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] > array[j]) {
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        System.out.println("the minimum number is equal to: " + array[0]);
+        System.out.println("the maximum number is equal to: " + array[array.length - 1]);
+    }
+
 //    public static void main(String[] args) {
 //        sortArray();
 //        sumArray();
