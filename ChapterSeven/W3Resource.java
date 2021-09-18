@@ -29,16 +29,16 @@ public class W3Resource {
         ;
     }
 
-//    public static void averageSum() {
-//        int[] array = {5, 6, 3, 2, 8, 1, 0};
-//        int sum = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            sum += array[i];
-//        }
-//        double average = (double) sum / array.length;
-//        System.out.println(average);
-//    }
-//
+    public static void averageSum() {
+        int[] array = {5, 6, 3, 2, 8, 1, 0};
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        double average = (double) sum / array.length;
+        System.out.println(average);
+    }
+
 //    public static void isInArray() {
 //        int numberToTest = 5;
 //        int[] array = {1, 6, 5, 3, 2, 8, 1, 0};
