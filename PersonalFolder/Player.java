@@ -36,10 +36,10 @@ public class Player implements SaveAble{
         return name;
     }
 
-//    public int getHitPoints() {
-//        return hitPoints;
-//    }
-//
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
 //    public int getStrength() {
 //        return strength;
 //    }
