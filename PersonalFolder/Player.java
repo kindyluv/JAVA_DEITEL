@@ -44,10 +44,10 @@ public class Player implements SaveAble{
         return strength;
     }
 
-//    public String getWeapon() {
-//        return weapon;
-//    }
-//
+    public String getWeapon() {
+        return weapon;
+    }
+
 //    @Override
 //    public String toString() {
 //        return "Player{" +
