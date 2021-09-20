@@ -15,11 +15,11 @@ public class Player implements SaveAble{
         this.strength = strength;
         this.weapon = "sword";
     }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 //    public void setHitPoints(int hitPoints) {
 //        this.hitPoints = hitPoints;
 //    }
