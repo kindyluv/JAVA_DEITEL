@@ -28,10 +28,10 @@ public class Player implements SaveAble{
         this.strength = strength;
     }
 
-//    public void setWeapon(String weapon) {
-//        this.weapon = weapon;
-//    }
-//
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
+
 //    public String getName() {
 //        return name;
 //    }
