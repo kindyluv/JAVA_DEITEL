@@ -45,13 +45,13 @@ public class PersonalFolder {
         return values;
     }
 
-//    public static  void saveObject(SaveAble objectToSave){
-//        for (int i = 0; i < objectToSave.write().size(); i++) {
-//            System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
-//
-//        }
-//
-//    }
+    public static  void saveObject(SaveAble objectToSave){
+        for (int i = 0; i < objectToSave.write().size(); i++) {
+            System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
+
+        }
+
+    }
 //
 //    public static void  loadObject(SaveAble objectToLoad){
 //        ArrayList<String> values = readValues();
