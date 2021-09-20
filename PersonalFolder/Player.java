@@ -20,10 +20,10 @@ public class Player implements SaveAble{
         this.name = name;
     }
 
-//    public void setHitPoints(int hitPoints) {
-//        this.hitPoints = hitPoints;
-//    }
-//
+    public void setHitPoints(int hitPoints) {
+        this.hitPoints = hitPoints;
+    }
+
 //    public void setStrength(int strength) {
 //        this.strength = strength;
 //    }
