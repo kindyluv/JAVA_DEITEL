@@ -48,16 +48,16 @@ public class Player implements SaveAble{
         return weapon;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Player{" +
-//                "name='" + name + '\'' +
-//                ", hitPoints=" + hitPoints +
-//                ", strength=" + strength +
-//                ", weapon='" + weapon + '\'' +
-//                '}';
-//    }
-//
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", hitPoints=" + hitPoints +
+                ", strength=" + strength +
+                ", weapon='" + weapon + '\'' +
+                '}';
+    }
+
 //    @Override
 //    public List<String> write() {
 //        List<String> values = new ArrayList<String>();
