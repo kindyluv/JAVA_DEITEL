@@ -52,10 +52,10 @@ public class PersonalFolder {
         }
 
     }
-//
-//    public static void  loadObject(SaveAble objectToLoad){
-//        ArrayList<String> values = readValues();
-//        objectToLoad.read(values );
-//    }
+
+    public static void  loadObject(SaveAble objectToLoad){
+        ArrayList<String> values = readValues();
+        objectToLoad.read(values );
+    }
 
 }
