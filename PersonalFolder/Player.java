@@ -9,12 +9,12 @@ public class Player implements SaveAble{
     private int strength;
     private String weapon;
 
-//    public Player(String name, int hitPoints, int strength, String weapon) {
-//        this.name = name;
-//        this.hitPoints = hitPoints;
-//        this.strength = strength;
-//        this.weapon = "sword";
-//    }
+    public Player(String name, int hitPoints, int strength, String weapon) {
+        this.name = name;
+        this.hitPoints = hitPoints;
+        this.strength = strength;
+        this.weapon = "sword";
+    }
 //
 //    public void setName(String name) {
 //        this.name = name;
