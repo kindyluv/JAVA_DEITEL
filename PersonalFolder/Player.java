@@ -32,10 +32,10 @@ public class Player implements SaveAble{
         this.weapon = weapon;
     }
 
-//    public String getName() {
-//        return name;
-//    }
-//
+    public String getName() {
+        return name;
+    }
+
 //    public int getHitPoints() {
 //        return hitPoints;
 //    }
