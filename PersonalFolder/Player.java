@@ -24,10 +24,10 @@ public class Player implements SaveAble{
         this.hitPoints = hitPoints;
     }
 
-//    public void setStrength(int strength) {
-//        this.strength = strength;
-//    }
-//
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
 //    public void setWeapon(String weapon) {
 //        this.weapon = weapon;
 //    }
