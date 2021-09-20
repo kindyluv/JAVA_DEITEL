@@ -18,15 +18,15 @@ public class PersonalFolder {
     System.out.println(player);
 }
 
-//    public static ArrayList<String> readValues(){
-//        ArrayList<String> values = new ArrayList<>();
-//
-//        Scanner scanner = new Scanner(System.in);
-//        boolean quit = false;
-//        int index = 0;
-//        System.out.println("Choose\n" +
-//                "1 to enter a string\n" +
-//                "0 to quit");
+    public static ArrayList<String> readValues(){
+        ArrayList<String> values = new ArrayList<>();
+
+        Scanner scanner = new Scanner(System.in);
+        boolean quit = false;
+        int index = 0;
+        System.out.println("Choose\n" +
+                "1 to enter a string\n" +
+                "0 to quit");
 //        while (!quit){
 //            System.out.println("Choose an option: ");
 //            int choice = scanner.nextInt();
