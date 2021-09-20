@@ -40,10 +40,10 @@ public class Player implements SaveAble{
         return hitPoints;
     }
 
-//    public int getStrength() {
-//        return strength;
-//    }
-//
+    public int getStrength() {
+        return strength;
+    }
+
 //    public String getWeapon() {
 //        return weapon;
 //    }
