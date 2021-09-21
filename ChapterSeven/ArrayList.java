@@ -45,13 +45,13 @@ class ArrayListClass {
         numbs.add(4, "Four");
         numbs.add(5, "Five");
 
-//        String num;
-//        Iterator<String> k = numbs.iterator();
-//        while (k.hasNext()){
-//            num = k.next();
-//            System.out.println(num);
-//        }
-//    }
+        String num;
+        Iterator<String> k = numbs.iterator();
+        while (k.hasNext()){
+            num = k.next();
+            System.out.println(num);
+        }
+    }
 //    public static void reprint(){
 //        System.out.println(numbs);
 //    }
