@@ -8,20 +8,20 @@ class ArrayListClass {
     private ArrayList<String> sign = new ArrayList<>();
     private static ArrayList<String> numbs = new ArrayList<>();
 
-//    public static void arrayLists(){
-//        numbs.add("One");
-//        numbs.add("Two");
-//        numbs.add("Four");
-//        numbs.add("Zero");
-//        numbs.add("Six");
-//        numbs.add("Seven");
-//        numbs.add("Nine");
-//        numbs.add("Eleven");
-//        numbs.add ("Ten");
-//        numbs.add("Eight");
-//        numbs.add("Five");
-//        numbs.add("Three");
-//
+    public static void arrayLists(){
+        numbs.add("One");
+        numbs.add("Two");
+        numbs.add("Four");
+        numbs.add("Zero");
+        numbs.add("Six");
+        numbs.add("Seven");
+        numbs.add("Nine");
+        numbs.add("Eleven");
+        numbs.add ("Ten");
+        numbs.add("Eight");
+        numbs.add("Five");
+        numbs.add("Three");
+
 ////        System.out.println(numbs);
 //        numbs.add(2, "me");
 ////        System.out.println(numbs);
