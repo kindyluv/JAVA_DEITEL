@@ -52,14 +52,14 @@ class ArrayListClass {
             System.out.println(num);
         }
     }
-//    public static void reprint(){
-//        System.out.println(numbs);
-//    }
-//
-//    public static void main(String[] args) {
-////        arrayLists();
-////        addMoreToArray();
-////        iterator();
-//        reprint();
-//    }
+    public static void reprint(){
+        System.out.println(numbs);
+    }
+
+    public static void main(String[] args) {
+//        arrayLists();
+//        addMoreToArray();
+//        iterator();
+        reprint();
+    }
 }
