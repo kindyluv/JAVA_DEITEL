@@ -32,11 +32,11 @@ class ArrayListClass {
         }
     }
 
-//    public static void addMoreToArray(){
-//        numbs.add(2, "me");
-////        System.out.println(numbs);
-//    }
-//
+    public static void addMoreToArray(){
+        numbs.add(2, "me");
+//        System.out.println(numbs);
+    }
+
 //    public static void iterator(){
 //        numbs.add(0, "Zero");
 //        numbs.add(1, "One");
