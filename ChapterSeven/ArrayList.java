@@ -37,14 +37,14 @@ class ArrayListClass {
 //        System.out.println(numbs);
     }
 
-//    public static void iterator(){
-//        numbs.add(0, "Zero");
-//        numbs.add(1, "One");
-//        numbs.add(2, "Two");
-//        numbs.add(3, "Three");
-//        numbs.add(4, "Four");
-//        numbs.add(5, "Five");
-//
+    public static void iterator(){
+        numbs.add(0, "Zero");
+        numbs.add(1, "One");
+        numbs.add(2, "Two");
+        numbs.add(3, "Three");
+        numbs.add(4, "Four");
+        numbs.add(5, "Five");
+
 //        String num;
 //        Iterator<String> k = numbs.iterator();
 //        while (k.hasNext()){
