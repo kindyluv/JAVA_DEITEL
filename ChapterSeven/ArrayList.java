@@ -22,16 +22,16 @@ class ArrayListClass {
         numbs.add("Five");
         numbs.add("Three");
 
-////        System.out.println(numbs);
-//        numbs.add(2, "me");
-////        System.out.println(numbs);
-//        for (int i = 0; i < numbs.size(); i++) {
-//            int j = numbs.indexOf(i);
-//            System.out.println("Item " + numbs.get(i) + " is in index "+ ": " + i);
-////            System.out.println(numbs.get(i));
-//        }
-//    }
-//
+//        System.out.println(numbs);
+        numbs.add(2, "me");
+//        System.out.println(numbs);
+        for (int i = 0; i < numbs.size(); i++) {
+            int j = numbs.indexOf(i);
+            System.out.println("Item " + numbs.get(i) + " is in index "+ ": " + i);
+//            System.out.println(numbs.get(i));
+        }
+    }
+
 //    public static void addMoreToArray(){
 //        numbs.add(2, "me");
 ////        System.out.println(numbs);
