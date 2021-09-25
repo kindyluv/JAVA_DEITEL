@@ -23,9 +23,9 @@ public class Turtle {
         pen.setPosition(UP);
     }
 
-//    public Direction getCurrentDirection() {
-//        return currentDirection;
-//    }
+    public Direction getCurrentDirection() {
+        return currentDirection;
+    }
 
 //    public void turnRight() {
 //        if (currentDirection == WEST) changeCurrentDirectionTo(NORTH);
