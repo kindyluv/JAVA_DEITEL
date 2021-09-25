@@ -19,9 +19,9 @@ public class Turtle {
         pen.setPosition(DOWN);
     }
 
-//    public void penUp(){
-//        pen.setPosition(UP);
-//    }
+    public void penUp(){
+        pen.setPosition(UP);
+    }
 
 //    public Direction getCurrentDirection() {
 //        return currentDirection;
