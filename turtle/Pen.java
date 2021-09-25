@@ -8,7 +8,7 @@ public class Pen {
         return penPosition;
     }
 
-//    public void setPosition(PenPosition currentPosition){
-//        penPosition = currentPosition;
+    public void setPosition(PenPosition currentPosition){
+        penPosition = currentPosition;
     }
 }
