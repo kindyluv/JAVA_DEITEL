@@ -32,16 +32,16 @@ class TurtleTest {
 
     }
 
-//    @Test
-//    public void testThatTurtleCanMovePenDown(){
-//        //given
-//        assertSame(UP, pen.getPosition());
-//        //when
-//        ijapa.penDown();
-//        //assert
-//        assertSame(DOWN, ijapa.getPen().getPosition());
-//
-//    }
+    @Test
+    public void testThatTurtleCanMovePenDown(){
+        //given
+        assertSame(UP, pen.getPosition());
+        //when
+        ijapa.penDown();
+        //assert
+        assertSame(DOWN, ijapa.getPen().getPosition());
+
+    }
 
 //    @Test
 //    public void testThatTurtleCanMovePenUp(){
