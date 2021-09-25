@@ -54,16 +54,16 @@ class TurtleTest {
         assertSame(UP, ijapa.getPen().getPosition());
 
     }
-//    @Test
-//    public void testThatTurtleCanMovePenBackUp() {
-//    //given
-//        ijapa.penDown();
-//        assertSame(DOWN, ijapa. getPen().getPosition());
-//        //assert
-//        ijapa.penUp();
-//        assertSame(UP, pen.getPosition());
-//
-//    }
+    @Test
+    public void testThatTurtleCanMovePenBackUp() {
+    //given
+        ijapa.penDown();
+        assertSame(DOWN, ijapa. getPen().getPosition());
+        //assert
+        ijapa.penUp();
+        assertSame(UP, pen.getPosition());
+
+    }
 
 //    @Test
 //    @DisplayName("Turtle can turn right while facing eat test")
