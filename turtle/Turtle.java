@@ -27,11 +27,11 @@ public class Turtle {
         return currentDirection;
     }
 
-//    public void turnRight() {
-//        if (currentDirection == WEST) changeCurrentDirectionTo(NORTH);
-//        if(currentDirection == SOUTH) changeCurrentDirectionTo(WEST);
-//        if(currentDirection == EAST) changeCurrentDirectionTo(SOUTH);
-//    }
+    public void turnRight() {
+        if (currentDirection == WEST) changeCurrentDirectionTo(NORTH);
+        if(currentDirection == SOUTH) changeCurrentDirectionTo(WEST);
+        if(currentDirection == EAST) changeCurrentDirectionTo(SOUTH);
+    }
 
 //    private void changeCurrentDirectionTo(Direction newDirection) {
 //        currentDirection = newDirection;
