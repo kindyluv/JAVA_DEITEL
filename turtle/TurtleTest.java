@@ -65,16 +65,16 @@ class TurtleTest {
 
     }
 
-//    @Test
-//    @DisplayName("Turtle can turn right while facing eat test")
-//    public void testThatTurtleCanTurnRight(){
-//        //given
-//        assertSame(EAST, ijapa.getCurrentDirection());
-//        //when
-//        ijapa.turnRight();
-//        //assert
-//        assertSame(SOUTH, ijapa.getCurrentDirection());
-//    }
+    @Test
+    @DisplayName("Turtle can turn right while facing eat test")
+    public void testThatTurtleCanTurnRight(){
+        //given
+        assertSame(EAST, ijapa.getCurrentDirection());
+        //when
+        ijapa.turnRight();
+        //assert
+        assertSame(SOUTH, ijapa.getCurrentDirection());
+    }
 
 //    @Test
 //    public void testThatTurtleCanTurnRight2(){
