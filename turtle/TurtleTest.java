@@ -19,11 +19,11 @@ class TurtleTest {
         Pen pen = ijapa.getPen();
     }
 
-//    @Test
-//    public void testThatTurtleHasPen(){
-//        //assert
-//        assertNotNull(pen);
-//    }
+    @Test
+    public void testThatTurtleHasPen(){
+        //assert
+        assertNotNull(pen);
+    }
 
 //    @Test
 //    public void testThatPenIsUpByDefault(){
