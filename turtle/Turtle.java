@@ -15,9 +15,9 @@ public class Turtle {
         return pen;
     }
 
-//    public void penDown(){
-//        pen.setPosition(DOWN);
-//    }
+    public void penDown(){
+        pen.setPosition(DOWN);
+    }
 
 //    public void penUp(){
 //        pen.setPosition(UP);
