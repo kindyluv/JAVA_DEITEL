@@ -43,7 +43,7 @@ public class Turtle {
         if (currentDirection == EAST) changeCurrentDirectionTo(NORTH);
     }
 
-//    public Position getCurrentPosition() {
-//        return new Position(0,0);
-//    }
+    public Position getCurrentPosition() {
+        return new Position(0,0);
+    }
 }
