@@ -9,11 +9,11 @@ public class Position {
         this.columnPosition = columnPosition;
     }
 
-//
-//    @Override
-//    public String toString() {
-//        return "Position{}";
-//    }
+
+    @Override
+    public String toString() {
+        return "Position{}";
+    }
 //
 //    @Override
 //    public boolean equals(Object o){
