@@ -85,15 +85,15 @@ class TurtleTest {
         assertSame(WEST, ijapa.getCurrentDirection());
     }
 
-//    @Test
-//    public void testThatTurtleCanTurnRight3(){
-//        //given
-//        ijapa.turnRight();
-//        ijapa.turnRight();
-//        ijapa.turnRight();
-//        //assert
-//        assertSame(NORTH, ijapa.getCurrentDirection());
-//    }
+    @Test
+    public void testThatTurtleCanTurnRight3(){
+        //given
+        ijapa.turnRight();
+        ijapa.turnRight();
+        ijapa.turnRight();
+        //assert
+        assertSame(NORTH, ijapa.getCurrentDirection());
+    }
 
     //todo add turn right while facing north test
 
