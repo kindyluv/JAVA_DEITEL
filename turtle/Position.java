@@ -14,11 +14,11 @@ public class Position {
     public String toString() {
         return "Position{}";
     }
-//
-//    @Override
-//    public boolean equals(Object o){
-////        Position comparedPosition = (Position);
-////        if ()
-//        return false;
-//    }
+
+    @Override
+    public boolean equals(Object o){
+//        Position comparedPosition = (Position);
+//        if ()
+        return false;
+    }
 }
