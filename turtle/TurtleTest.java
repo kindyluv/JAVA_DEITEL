@@ -25,12 +25,12 @@ class TurtleTest {
         assertNotNull(pen);
     }
 
-//    @Test
-//    public void testThatPenIsUpByDefault(){
-//        //assert
-//        assertSame(UP, pen.getPosition());
-//
-//    }
+    @Test
+    public void testThatPenIsUpByDefault(){
+        //assert
+        assertSame(UP, pen.getPosition());
+
+    }
 
 //    @Test
 //    public void testThatTurtleCanMovePenDown(){
