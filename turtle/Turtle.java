@@ -33,9 +33,9 @@ public class Turtle {
         if(currentDirection == EAST) changeCurrentDirectionTo(SOUTH);
     }
 
-//    private void changeCurrentDirectionTo(Direction newDirection) {
-//        currentDirection = newDirection;
-//    }
+    private void changeCurrentDirectionTo(Direction newDirection) {
+        currentDirection = newDirection;
+    }
 
 //    public void turnLeft(){
 //        if (currentDirection == WEST) changeCurrentDirectionTo(SOUTH);
