@@ -79,10 +79,10 @@ public class Mp3Player {
         return volume;
     }
 
-//    public void musicList() {
-//
-//    }
-//
+    public void musicList() {
+
+    }
+
 //    public PlayList addMusic() {
 //
 //        return playList;
