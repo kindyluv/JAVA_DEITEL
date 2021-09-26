@@ -34,12 +34,12 @@ public class Mp3Player {
         return power;
     }
 
-//    public void playMusic() {
-//        boolean isNotPlaying = musicState != PLAY;
-//        if (isNotPlaying) changeMusicStateTo(PLAY);
-//
-//    }
-//
+    public void playMusic() {
+        boolean isNotPlaying = musicState != PLAY;
+        if (isNotPlaying) changeMusicStateTo(PLAY);
+
+    }
+
 //    private void changeMusicStateTo(MusicState musicMode) {
 //        musicState = musicMode;
 //    }
