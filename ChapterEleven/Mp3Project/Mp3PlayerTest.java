@@ -15,13 +15,13 @@ class Mp3PlayerTest {
         Power power = oraimo.getPower();
 
     }
-//
-//    @Test
-//    public void testThatMp3IsOffByDefault() {
-//        //given
-//        assertEquals(Power.OFF, oraimo.getPower());
-//    }
-//
+
+    @Test
+    public void testThatMp3IsOffByDefault() {
+        //given
+        assertEquals(Power.OFF, oraimo.getPower());
+    }
+
 //    @Test
 //    public void testThatMp3CanBeTurnedOn(){
 //        //given
