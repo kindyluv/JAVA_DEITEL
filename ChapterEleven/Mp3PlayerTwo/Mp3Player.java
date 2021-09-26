@@ -50,10 +50,10 @@ public class Mp3Player {
         return playList;
     }
 
-//    public void shuttleMusic() {
-//        if (playMode == LINEAR) changePlayModeTo(SHUFFLE);
-//    }
-//
+    public void shuttleMusic() {
+        if (playMode == LINEAR) changePlayModeTo(SHUFFLE);
+    }
+
 //    private void changePlayModeTo(PlayMode random) {
 //        playMode = random;
 //    }
