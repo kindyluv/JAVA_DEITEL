@@ -45,16 +45,16 @@ class Mp3PlayerTest {
         assertEquals(Power.OFF, oraimo.getPower());
     }
 
-//    @Test
-//    public void testThatMp3CanPlayMusic(){
-//        //given
-//        assertEquals(MusicState.STOP, oraimo.getMusicState());
-//        //when
-//        oraimo.playMusic();
-//        //assert
-//        assertEquals(MusicState.PLAY, oraimo.getMusicState());
-//    }
-//
+    @Test
+    public void testThatMp3CanPlayMusic(){
+        //given
+        assertEquals(MusicState.STOP, oraimo.getMusicState());
+        //when
+        oraimo.playMusic();
+        //assert
+        assertEquals(MusicState.PLAY, oraimo.getMusicState());
+    }
+
 //    @Test
 //    public void testThatMp3CanPauseMusic(){
 //        //given
