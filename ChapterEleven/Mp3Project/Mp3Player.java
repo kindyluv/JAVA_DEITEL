@@ -49,10 +49,10 @@ public class Mp3Player {
 
     }
 
-//    public void increaseVolume() {
-//        VolumeLevel.increaseLevel();
-//    }
-//
+    public void increaseVolume() {
+        VolumeLevel.increaseLevel();
+    }
+
 //    public void decreaseVolume() {
 //        VolumeLevel.decreaseLevel();
 //    }
