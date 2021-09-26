@@ -19,9 +19,9 @@ public class Music {
         this.tractName = tractName;
     }
 
-//    public int getTractNumber() {
-//        return tractNumber;
-//    }
+    public int getTractNumber() {
+        return tractNumber;
+    }
 //
 //    public void setTractNumber(int tractNumber) {
 //        this.tractNumber = tractNumber;
