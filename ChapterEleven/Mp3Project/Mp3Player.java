@@ -25,10 +25,10 @@ public class Mp3Player {
         power = powerMode;
     }
 
-//    public Power isOn() {
-//        if (power == OFF) changePowerTo(ON);
-//        return power;
-//    }
+    public Power isOn() {
+        if (power == OFF) changePowerTo(ON);
+        return power;
+    }
 //
 //    public Power getPower() {
 //        return power;
