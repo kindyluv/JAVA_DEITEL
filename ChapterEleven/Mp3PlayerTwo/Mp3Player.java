@@ -66,10 +66,10 @@ public class Mp3Player {
         if (playMode == SHUFFLE) changePlayModeTo(LINEAR);
     }
 
-//    public void increaseVolume() {
-//        Volume.increaseVolumeLevel();
-//    }
-//
+    public void increaseVolume() {
+        Volume.increaseVolumeLevel();
+    }
+
 //    public void decreaseVolume() {
 //        Volume.decreaseVolumeLevel();
 //    }
