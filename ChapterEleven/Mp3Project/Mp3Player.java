@@ -105,9 +105,9 @@ public class Mp3Player {
         return playMusic;
     }
 
-//    public Music getMusic() {
-//        return music;
-//    }
+    public Music getMusic() {
+        return music;
+    }
 
 //    public PlaySong getPlaySong() {
 //        return playSong;
