@@ -26,12 +26,12 @@ public class Mp3Player {
         if (power == ON) power = OFF;
     }
 
-//    public void playMusic() {
-//        boolean isNotPlaying = musicState != PLAY;
-//        if (isNotPlaying) changeMusicStateTo(PLAY);
-//    }
-//
-//
+    public void playMusic() {
+        boolean isNotPlaying = musicState != PLAY;
+        if (isNotPlaying) changeMusicStateTo(PLAY);
+    }
+
+
 //    public void pauseMusic() {
 //        boolean isPlaying = musicState != STOP;
 //        if (isPlaying) changeMusicStateTo(PAUSE);
