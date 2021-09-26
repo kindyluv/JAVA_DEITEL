@@ -21,10 +21,10 @@ public class Mp3Player {
         return power;
     }
 
-//    private void changePowerTo(Power powerMode) {
-//        power = powerMode;
-//    }
-//
+    private void changePowerTo(Power powerMode) {
+        power = powerMode;
+    }
+
 //    public Power isOn() {
 //        if (power == OFF) changePowerTo(ON);
 //        return power;
