@@ -4,15 +4,15 @@ public class VolumeLevel {
     private static int level = 0;
    static Volume volume;
 
-//    public static void increaseLevel() {
-//        volume = Volume.INCREASE;
-//        boolean isHighestLevelPossible = level <= 100;
-//        if (isHighestLevelPossible){
-//            level += 5;
-//        } else {
-//            level = 100;
-//        }
-//    }
+    public static void increaseLevel() {
+        volume = Volume.INCREASE;
+        boolean isHighestLevelPossible = level <= 100;
+        if (isHighestLevelPossible){
+            level += 5;
+        } else {
+            level = 100;
+        }
+    }
 //
 //    public static void decreaseLevel() {
 //        volume = Volume.DECREASE;
