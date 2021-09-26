@@ -44,11 +44,11 @@ public class Mp3Player {
         musicState = musicMode;
     }
 
-//    public void pauseMusic() {
-//        if (musicState == PLAY) changeMusicStateTo(PAUSE);
-//
-//    }
-//
+    public void pauseMusic() {
+        if (musicState == PLAY) changeMusicStateTo(PAUSE);
+
+    }
+
 //    public void increaseVolume() {
 //        VolumeLevel.increaseLevel();
 //    }
