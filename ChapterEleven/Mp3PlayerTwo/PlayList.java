@@ -10,11 +10,11 @@ public class PlayList {
     public PlayList() {
         music = new ArrayList<>();
     }
-//
-//    public static boolean addMusic() {
-//      return music.add(musiz);
-//    }
-//
+
+    public static boolean addMusic() {
+      return music.add(musiz);
+    }
+
 //    public static boolean removeMusic() {
 //        return music.remove(musiz);
 //    }
