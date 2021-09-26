@@ -101,10 +101,10 @@ public class Mp3Player {
         playMusic = random;
     }
 
-//    public PlayMusic getPlayMusic() {
-//        return playMusic;
-//    }
-//
+    public PlayMusic getPlayMusic() {
+        return playMusic;
+    }
+
 //    public Music getMusic() {
 //        return music;
 //    }
