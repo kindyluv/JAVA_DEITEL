@@ -92,11 +92,11 @@ public class Mp3Player {
         if (playMusic == LINER) changePlayMusicTo(SHUFFLEPLAYING);
     }
 
-//    public void linerPlaying() {
-//        if (playMusic == SHUFFLEPLAYING) changePlayMusicTo(LINER);
-//
-//    }
-//
+    public void linerPlaying() {
+        if (playMusic == SHUFFLEPLAYING) changePlayMusicTo(LINER);
+
+    }
+
 //    public void changePlayMusicTo(PlayMusic random) {
 //        playMusic = random;
 //    }
