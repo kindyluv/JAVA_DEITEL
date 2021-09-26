@@ -83,11 +83,11 @@ public class Mp3Player {
 
     }
 
-//    public PlayList addMusic() {
-//
-//        return playList;
-//    }
-//
+    public PlayList addMusic() {
+
+        return playList;
+    }
+
 //    public void shufflePlaying() {
 //        if (playMusic == LINER) changePlayMusicTo(SHUFFLEPLAYING);
 //    }
