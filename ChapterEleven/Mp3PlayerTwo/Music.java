@@ -31,7 +31,7 @@ public class Music {
         return lengthInSeconds;
     }
 
-//    public void setLength(double length) {
-//        this.lengthInSeconds = length;
-//    }
+    public void setLength(double length) {
+        this.lengthInSeconds = length;
+    }
 }
