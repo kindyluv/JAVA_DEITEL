@@ -92,14 +92,14 @@ class Mp3PlayerTest {
         assertEquals(10, Volume.getVolumeLevel());
     }
 
-//    @Test
-//    void testThatMp3CanHavePlayList(){
-//        //given
-//        PlayList playList = oraimo.getPlayList();
-//        //assert
-//        assertNotNull(playList);
-//    }
-//
+    @Test
+    void testThatMp3CanHavePlayList(){
+        //given
+        PlayList playList = oraimo.getPlayList();
+        //assert
+        assertNotNull(playList);
+    }
+
 //    @Test
 //    void testThatMp3CanAddMusicToPlayList(){
 //        //given
