@@ -15,9 +15,9 @@ public class PlayList {
       return music.add(musiz);
     }
 
-//    public static boolean removeMusic() {
-//        return music.remove(musiz);
-//    }
+    public static boolean removeMusic() {
+        return music.remove(musiz);
+    }
 //
 //    public static ArrayList<Music> music() {
 //        return music;
