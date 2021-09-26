@@ -13,16 +13,16 @@ public class Volume {
         }
     }
 
-//    public static int getVolumeLevel() {
-//        return volume;
-//    }
-//
-//    public static void decreaseVolumeLevel() {
-//        boolean isLowestLevelPossible = volume > 0;
-//        if (isLowestLevelPossible){
-//            volume -=5;
-//        }else {
-//            volume = 0;
-//        }
-//    }
+    public static int getVolumeLevel() {
+        return volume;
+    }
+
+    public static void decreaseVolumeLevel() {
+        boolean isLowestLevelPossible = volume > 0;
+        if (isLowestLevelPossible){
+            volume -=5;
+        }else {
+            volume = 0;
+        }
+    }
 }
