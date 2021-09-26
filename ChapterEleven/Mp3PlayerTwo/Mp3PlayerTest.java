@@ -147,14 +147,14 @@ class Mp3PlayerTest {
         assertEquals(PlayMode.SHUFFLE, oraimo.getPlayMode());
     }
 
-//    @Test
-//    void testThatMp3HasMusicList(){
-//        //given
-//        PlayList.music();
-//        //when
-//
-//        //assert
-//
-//    }
+    @Test
+    void testThatMp3HasMusicList(){
+        //given
+        PlayList.music();
+        //when
+
+        //assert
+
+    }
 
 }
