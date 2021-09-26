@@ -15,12 +15,12 @@ public class Mp3Player {
     private PlayMusic playMusic = LINER;
     private Music music;
 
-//    public Power isOff() {
-//        if (power == ON) changePowerTo(OFF);
-//
-//        return power;
-//    }
-//
+    public Power isOff() {
+        if (power == ON) changePowerTo(OFF);
+
+        return power;
+    }
+
 //    private void changePowerTo(Power powerMode) {
 //        power = powerMode;
 //    }
