@@ -120,17 +120,17 @@ class Mp3PlayerTest {
         assertEquals(0, VolumeLevel.getVolumeLevel());
     }
 
-//    @Test
-//    public void testThatMp3CanNextMusic(){
-//        //given
-//        oraimo.playMusic();
-//        assertEquals(MusicState.PLAY, oraimo.getMusicState());
-//        //when
-//        oraimo.nextMusic();
-//        //assert
-//        assertEquals(PlaySong.NEXT, oraimo.nextMusic());
-//    }
-//
+    @Test
+    public void testThatMp3CanNextMusic(){
+        //given
+        oraimo.playMusic();
+        assertEquals(MusicState.PLAY, oraimo.getMusicState());
+        //when
+        oraimo.nextMusic();
+        //assert
+        assertEquals(PlaySong.NEXT, oraimo.nextMusic());
+    }
+
 //    @Test
 //    public void testThatMp3CanPreviousMusic(){
 //        //given
