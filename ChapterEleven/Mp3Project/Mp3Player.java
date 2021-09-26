@@ -70,11 +70,11 @@ public class Mp3Player {
         return PREVIOUS;
     }
 
-//    public MusicState getMusicState() {
-//        return musicState;
-//
-//    }
-//
+    public MusicState getMusicState() {
+        return musicState;
+
+    }
+
 //    public Volume getVolume() {
 //        return volume;
 //    }
