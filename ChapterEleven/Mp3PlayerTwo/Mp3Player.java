@@ -41,11 +41,11 @@ public class Mp3Player {
         musicState = musicMode;
     }
 
-//    public MusicState getMusicState() {
-//        return musicState;
-//    }
-//
-//
+    public MusicState getMusicState() {
+        return musicState;
+    }
+
+
 //    public PlayList getPlayList() {
 //        return playList;
 //    }
