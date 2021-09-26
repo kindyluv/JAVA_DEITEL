@@ -7,9 +7,9 @@ public class PlayList {
     private static ArrayList<Music> music ;
     private static Music musiz;
 
-//    public PlayList() {
-//        music = new ArrayList<>();
-//    }
+    public PlayList() {
+        music = new ArrayList<>();
+    }
 //
 //    public static boolean addMusic() {
 //      return music.add(musiz);
