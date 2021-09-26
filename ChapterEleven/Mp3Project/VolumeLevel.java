@@ -13,17 +13,17 @@ public class VolumeLevel {
             level = 100;
         }
     }
-//
-//    public static void decreaseLevel() {
-//        volume = Volume.DECREASE;
-//        boolean isLowestLevelPossible = level >= 0;
-//        if (isLowestLevelPossible) {
-//            level -= 5;
-//        } else {
-//            level = 0;
-//        }
-//    }
-//
+
+    public static void decreaseLevel() {
+        volume = Volume.DECREASE;
+        boolean isLowestLevelPossible = level >= 0;
+        if (isLowestLevelPossible) {
+            level -= 5;
+        } else {
+            level = 0;
+        }
+    }
+
 //    public static int getVolumeLevel() {
 //        return level;
 //    }
