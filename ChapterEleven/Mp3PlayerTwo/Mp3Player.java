@@ -32,11 +32,11 @@ public class Mp3Player {
     }
 
 
-//    public void pauseMusic() {
-//        boolean isPlaying = musicState != STOP;
-//        if (isPlaying) changeMusicStateTo(PAUSE);
-//    }
-//
+    public void pauseMusic() {
+        boolean isPlaying = musicState != STOP;
+        if (isPlaying) changeMusicStateTo(PAUSE);
+    }
+
 //    private void changeMusicStateTo(MusicState musicMode) {
 //        musicState = musicMode;
 //    }
