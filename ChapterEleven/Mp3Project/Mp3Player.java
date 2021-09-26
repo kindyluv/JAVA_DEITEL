@@ -61,11 +61,11 @@ public class Mp3Player {
         return NEXT;
     }
 
-//    private void changeMusicPlayingStateTo(PlaySong playingMode) {
-//        playSong = playingMode;
-//    }
-//
-//
+    private void changeMusicPlayingStateTo(PlaySong playingMode) {
+        playSong = playingMode;
+    }
+
+
 //    public PlaySong previousMusic() {
 //        return PREVIOUS;
 //    }
