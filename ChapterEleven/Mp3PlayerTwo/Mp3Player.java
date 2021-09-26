@@ -17,10 +17,10 @@ public class Mp3Player {
         return power;
     }
 
-//    public void isOn() {
-//        if (power == OFF)
-//            power = ON;
-//    }
+    public void isOn() {
+        if (power == OFF)
+            power = ON;
+    }
 //
 //    public void isOff() {
 //        if (power == ON) power = OFF;
