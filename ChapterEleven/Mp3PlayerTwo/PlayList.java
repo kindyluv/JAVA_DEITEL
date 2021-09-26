@@ -23,8 +23,8 @@ public class PlayList {
         return music;
     }
 
-//    public int getSizeOfPlaylist() {
-//        return music.size();
-//    }
+    public int getSizeOfPlaylist() {
+        return music.size();
+    }
 
 }
