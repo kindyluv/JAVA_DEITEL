@@ -37,10 +37,10 @@ public class Mp3Player {
         if (isPlaying) changeMusicStateTo(PAUSE);
     }
 
-//    private void changeMusicStateTo(MusicState musicMode) {
-//        musicState = musicMode;
-//    }
-//
+    private void changeMusicStateTo(MusicState musicMode) {
+        musicState = musicMode;
+    }
+
 //    public MusicState getMusicState() {
 //        return musicState;
 //    }
