@@ -142,19 +142,19 @@ class Mp3PlayerTest {
         assertEquals(PlaySong.PREVIOUS, oraimo.previousMusic());
     }
 
-//    @Test
-//    public void testThatMp3CanPlayMusicAtLinear(){
-//        //given
-//        oraimo.playMusic();
-//        assertEquals(MusicState.PLAY, oraimo.getMusicState());
-//        oraimo.shufflePlaying();
-//        assertEquals(PlayMusic.SHUFFLEPLAYING, oraimo.getPlayMusic());
-//        //when
-//        oraimo.linerPlaying();
-//        //assert
-//        assertEquals(PlayMusic.LINER, oraimo.getPlayMusic());
-//    }
-//
+    @Test
+    public void testThatMp3CanPlayMusicAtLinear(){
+        //given
+        oraimo.playMusic();
+        assertEquals(MusicState.PLAY, oraimo.getMusicState());
+        oraimo.shufflePlaying();
+        assertEquals(PlayMusic.SHUFFLEPLAYING, oraimo.getPlayMusic());
+        //when
+        oraimo.linerPlaying();
+        //assert
+        assertEquals(PlayMusic.LINER, oraimo.getPlayMusic());
+    }
+
 //    @Test
 //    public void testThatMp3CanPlayMusicAtRandom(){
 //        //given
