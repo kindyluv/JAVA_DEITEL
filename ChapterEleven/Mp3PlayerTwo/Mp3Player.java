@@ -21,11 +21,11 @@ public class Mp3Player {
         if (power == OFF)
             power = ON;
     }
-//
-//    public void isOff() {
-//        if (power == ON) power = OFF;
-//    }
-//
+
+    public void isOff() {
+        if (power == ON) power = OFF;
+    }
+
 //    public void playMusic() {
 //        boolean isNotPlaying = musicState != PLAY;
 //        if (isNotPlaying) changeMusicStateTo(PLAY);
