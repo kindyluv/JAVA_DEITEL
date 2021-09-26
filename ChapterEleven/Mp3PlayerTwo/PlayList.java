@@ -18,11 +18,11 @@ public class PlayList {
     public static boolean removeMusic() {
         return music.remove(musiz);
     }
-//
-//    public static ArrayList<Music> music() {
-//        return music;
-//    }
-//
+
+    public static ArrayList<Music> music() {
+        return music;
+    }
+
 //    public int getSizeOfPlaylist() {
 //        return music.size();
 //    }
