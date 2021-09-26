@@ -112,19 +112,19 @@ class Mp3PlayerTest {
         assertEquals(3, playList.getSizeOfPlaylist());
     }
 
-//    @Test
-//    void testThatMp3CanRemoveMusicToPlayList(){
-//        //given
-//        PlayList.addMusic();
-//        PlayList.addMusic();
-//        PlayList.addMusic();
-//        assertEquals(3, playList.getSizeOfPlaylist());
-//        //when
-//        PlayList.removeMusic();
-//        //assert
-//        assertEquals(2, playList.getSizeOfPlaylist());
-//    }
-//
+    @Test
+    void testThatMp3CanRemoveMusicToPlayList(){
+        //given
+        PlayList.addMusic();
+        PlayList.addMusic();
+        PlayList.addMusic();
+        assertEquals(3, playList.getSizeOfPlaylist());
+        //when
+        PlayList.removeMusic();
+        //assert
+        assertEquals(2, playList.getSizeOfPlaylist());
+    }
+
 //    @Test
 //    void testThatMp3CanPlayMusicAtALinearMode(){
 //        //given
