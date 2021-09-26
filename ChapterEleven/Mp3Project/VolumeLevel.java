@@ -24,7 +24,7 @@ public class VolumeLevel {
         }
     }
 
-//    public static int getVolumeLevel() {
-//        return level;
-//    }
+    public static int getVolumeLevel() {
+        return level;
+    }
 }
