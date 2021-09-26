@@ -62,10 +62,10 @@ public class Mp3Player {
         return playMode;
     }
 
-//    public void linearMusic() {
-//        if (playMode == SHUFFLE) changePlayModeTo(LINEAR);
-//    }
-//
+    public void linearMusic() {
+        if (playMode == SHUFFLE) changePlayModeTo(LINEAR);
+    }
+
 //    public void increaseVolume() {
 //        Volume.increaseVolumeLevel();
 //    }
