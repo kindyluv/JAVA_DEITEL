@@ -22,10 +22,10 @@ public class Music {
     public int getTractNumber() {
         return tractNumber;
     }
-//
-//    public void setTractNumber(int tractNumber) {
-//        this.tractNumber = tractNumber;
-//    }
+
+    public void setTractNumber(int tractNumber) {
+        this.tractNumber = tractNumber;
+    }
 //
 //    public double getLength() {
 //        return lengthInSeconds;
