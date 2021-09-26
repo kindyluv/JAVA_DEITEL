@@ -88,10 +88,10 @@ public class Mp3Player {
         return playList;
     }
 
-//    public void shufflePlaying() {
-//        if (playMusic == LINER) changePlayMusicTo(SHUFFLEPLAYING);
-//    }
-//
+    public void shufflePlaying() {
+        if (playMusic == LINER) changePlayMusicTo(SHUFFLEPLAYING);
+    }
+
 //    public void linerPlaying() {
 //        if (playMusic == SHUFFLEPLAYING) changePlayMusicTo(LINER);
 //
