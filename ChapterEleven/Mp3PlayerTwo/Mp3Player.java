@@ -54,10 +54,10 @@ public class Mp3Player {
         if (playMode == LINEAR) changePlayModeTo(SHUFFLE);
     }
 
-//    private void changePlayModeTo(PlayMode random) {
-//        playMode = random;
-//    }
-//
+    private void changePlayModeTo(PlayMode random) {
+        playMode = random;
+    }
+
 //    public PlayMode getPlayMode() {
 //        return playMode;
 //    }
