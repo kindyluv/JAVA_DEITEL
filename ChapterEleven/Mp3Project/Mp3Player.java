@@ -56,11 +56,11 @@ public class Mp3Player {
     public void decreaseVolume() {
         VolumeLevel.decreaseLevel();
     }
-//
-//    public PlaySong nextMusic() {
-//        return NEXT;
-//    }
-//
+
+    public PlaySong nextMusic() {
+        return NEXT;
+    }
+
 //    private void changeMusicPlayingStateTo(PlaySong playingMode) {
 //        playSong = playingMode;
 //    }
