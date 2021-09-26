@@ -13,10 +13,10 @@ public class Mp3Player {
     private PlayMode playMode = LINEAR;
 
 
-//    public Power getPower() {
-//        return power;
-//    }
-//
+    public Power getPower() {
+        return power;
+    }
+
 //    public void isOn() {
 //        if (power == OFF)
 //            power = ON;
