@@ -66,10 +66,10 @@ public class Mp3Player {
     }
 
 
-//    public PlaySong previousMusic() {
-//        return PREVIOUS;
-//    }
-//
+    public PlaySong previousMusic() {
+        return PREVIOUS;
+    }
+
 //    public MusicState getMusicState() {
 //        return musicState;
 //
