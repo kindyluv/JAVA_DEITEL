@@ -53,9 +53,9 @@ public class Mp3Player {
         VolumeLevel.increaseLevel();
     }
 
-//    public void decreaseVolume() {
-//        VolumeLevel.decreaseLevel();
-//    }
+    public void decreaseVolume() {
+        VolumeLevel.decreaseLevel();
+    }
 //
 //    public PlaySong nextMusic() {
 //        return NEXT;
