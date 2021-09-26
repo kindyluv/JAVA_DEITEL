@@ -26,11 +26,11 @@ public class Music {
     public void setTractNumber(int tractNumber) {
         this.tractNumber = tractNumber;
     }
-//
-//    public double getLength() {
-//        return lengthInSeconds;
-//    }
-//
+
+    public double getLength() {
+        return lengthInSeconds;
+    }
+
 //    public void setLength(double length) {
 //        this.lengthInSeconds = length;
 //    }
