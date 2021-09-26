@@ -70,7 +70,7 @@ public class Mp3Player {
         Volume.increaseVolumeLevel();
     }
 
-//    public void decreaseVolume() {
-//        Volume.decreaseVolumeLevel();
-//    }
+    public void decreaseVolume() {
+        Volume.decreaseVolumeLevel();
+    }
 }
