@@ -44,17 +44,17 @@ class Mp3PlayerTest {
         assertEquals(Power.OFF, oraimo.getPower());
     }
 
-//    @Test
-//    public void testThatMp3CanPlayMusic(){
-//        //given
-//        oraimo.isOn();
-//        assertEquals(Power.ON, oraimo.getPower());
-//        //when
-//        oraimo.playMusic();
-//        //assert
-//        assertEquals(MusicState.PLAY, oraimo.getMusicState());
-//    }
-//
+    @Test
+    public void testThatMp3CanPlayMusic(){
+        //given
+        oraimo.isOn();
+        assertEquals(Power.ON, oraimo.getPower());
+        //when
+        oraimo.playMusic();
+        //assert
+        assertEquals(MusicState.PLAY, oraimo.getMusicState());
+    }
+
 //    @Test
 //    public void testThatMp3CanPauseMusic(){
 //        //given
