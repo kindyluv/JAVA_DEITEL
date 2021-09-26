@@ -40,10 +40,10 @@ public class Mp3Player {
 
     }
 
-//    private void changeMusicStateTo(MusicState musicMode) {
-//        musicState = musicMode;
-//    }
-//
+    private void changeMusicStateTo(MusicState musicMode) {
+        musicState = musicMode;
+    }
+
 //    public void pauseMusic() {
 //        if (musicState == PLAY) changeMusicStateTo(PAUSE);
 //
