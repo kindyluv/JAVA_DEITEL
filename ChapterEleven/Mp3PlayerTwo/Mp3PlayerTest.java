@@ -100,18 +100,18 @@ class Mp3PlayerTest {
         assertNotNull(playList);
     }
 
-//    @Test
-//    void testThatMp3CanAddMusicToPlayList(){
-//        //given
-//        assertEquals(0, playList.getSizeOfPlaylist());
-//        //when
-//        PlayList.addMusic();
-//        PlayList.addMusic();
-//        PlayList.addMusic();
-//        //assert
-//        assertEquals(3, playList.getSizeOfPlaylist());
-//    }
-//
+    @Test
+    void testThatMp3CanAddMusicToPlayList(){
+        //given
+        assertEquals(0, playList.getSizeOfPlaylist());
+        //when
+        PlayList.addMusic();
+        PlayList.addMusic();
+        PlayList.addMusic();
+        //assert
+        assertEquals(3, playList.getSizeOfPlaylist());
+    }
+
 //    @Test
 //    void testThatMp3CanRemoveMusicToPlayList(){
 //        //given
