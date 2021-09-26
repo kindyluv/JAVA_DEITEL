@@ -97,10 +97,10 @@ public class Mp3Player {
 
     }
 
-//    public void changePlayMusicTo(PlayMusic random) {
-//        playMusic = random;
-//    }
-//
+    public void changePlayMusicTo(PlayMusic random) {
+        playMusic = random;
+    }
+
 //    public PlayMusic getPlayMusic() {
 //        return playMusic;
 //    }
