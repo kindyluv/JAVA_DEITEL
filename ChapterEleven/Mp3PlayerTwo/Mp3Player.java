@@ -46,10 +46,10 @@ public class Mp3Player {
     }
 
 
-//    public PlayList getPlayList() {
-//        return playList;
-//    }
-//
+    public PlayList getPlayList() {
+        return playList;
+    }
+
 //    public void shuttleMusic() {
 //        if (playMode == LINEAR) changePlayModeTo(SHUFFLE);
 //    }
