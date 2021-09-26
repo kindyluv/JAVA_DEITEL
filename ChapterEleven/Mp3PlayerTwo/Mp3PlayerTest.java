@@ -125,17 +125,17 @@ class Mp3PlayerTest {
         assertEquals(2, playList.getSizeOfPlaylist());
     }
 
-//    @Test
-//    void testThatMp3CanPlayMusicAtALinearMode(){
-//        //given
-//        oraimo.playMusic();
-//        assertEquals(MusicState.PLAY, oraimo.getMusicState());
-//        //when
-//        oraimo.linearMusic();
-//        //assert
-//        assertEquals(PlayMode.LINEAR, oraimo.getPlayMode());
-//    }
-//
+    @Test
+    void testThatMp3CanPlayMusicAtALinearMode(){
+        //given
+        oraimo.playMusic();
+        assertEquals(MusicState.PLAY, oraimo.getMusicState());
+        //when
+        oraimo.linearMusic();
+        //assert
+        assertEquals(PlayMode.LINEAR, oraimo.getPlayMode());
+    }
+
 //    @Test
 //    void testThatMp3CanPlayMusicAtAShuffleMode(){
 //        //given
