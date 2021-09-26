@@ -10,11 +10,11 @@ public class Music {
         this.tractNumber = tractNumber;
         this.lengthInSeconds = length;
     }
-//
-//    public String getTractName() {
-//        return tractName;
-//    }
-//
+
+    public String getTractName() {
+        return tractName;
+    }
+
 //    public void setTractName(String tractName) {
 //        this.tractName = tractName;
 //    }
@@ -33,5 +33,5 @@ public class Music {
 //
 //    public void setLength(double length) {
 //        this.lengthInSeconds = length;
-    }
-}
+//    }
+//}
