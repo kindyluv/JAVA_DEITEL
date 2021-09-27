@@ -162,16 +162,16 @@ class TurtleTest {
         assertEquals(new Position(0, 5), ijapa.getCurrentPosition());
     }
 
-//    @Test
-//    public void testThatTurtleCanMoveForwardWhileFacingNorth(){
-//        ijapa.turnRight();
-//        ijapa.turnRight();
-//        ijapa.turnRight();
-//        ijapa.moveForward(5);
-//        //assert
-//        assertEquals(new Position(5, 0), ijapa.getCurrentPosition());
-//    }
-//
+    @Test
+    public void testThatTurtleCanMoveForwardWhileFacingNorth(){
+        ijapa.turnRight();
+        ijapa.turnRight();
+        ijapa.turnRight();
+        ijapa.moveForward(5);
+        //assert
+        assertEquals(new Position(5, 0), ijapa.getCurrentPosition());
+    }
+
 //    @Test
 //    public void turtleCanWriteOnSketchPadWhileFAcingEastTest(){
 //        //given
