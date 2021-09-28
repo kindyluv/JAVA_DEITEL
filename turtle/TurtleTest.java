@@ -263,24 +263,24 @@ class TurtleTest {
         sketchPad.displayFloor();
     }
 
-//    @Test
-//    public void turtleCanWriteOnSketchPadWhileFAcingNorthAndTurnLeftTest(){
-//       //given
-//        SketchPad sketchPad = new SketchPad(5,5);
-//
-//        //when
-//        ijapa.turnLeft();
-//        ijapa.writeOn(sketchPad, 2);
-//        assertSame(NORTH, ijapa.getCurrentDirection());
-//        ijapa.writeOn(sketchPad, 2);
-//        //assert
-//        int[][] floor = sketchPad.getFloor();
-//        for (int i = 0; i < 2; i++) {
-//            assertEquals(0, floor[i][1]);
-//        }
-//        assertEquals(0, floor[0][1]);
-////        assertEquals(new Position(0,0), ijapa.getCurrentPosition());
-//        sketchPad.displayFloor();
-//    }
+    @Test
+    public void turtleCanWriteOnSketchPadWhileFAcingNorthAndTurnLeftTest(){
+       //given
+        SketchPad sketchPad = new SketchPad(5,5);
+
+        //when
+        ijapa.turnLeft();
+        ijapa.writeOn(sketchPad, 2);
+        assertSame(NORTH, ijapa.getCurrentDirection());
+        ijapa.writeOn(sketchPad, 2);
+        //assert
+        int[][] floor = sketchPad.getFloor();
+        for (int i = 0; i < 2; i++) {
+            assertEquals(0, floor[i][1]);
+        }
+        assertEquals(0, floor[0][1]);
+//        assertEquals(new Position(0,0), ijapa.getCurrentPosition());
+        sketchPad.displayFloor();
+    }
 
 }
