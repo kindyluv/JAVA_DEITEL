@@ -15,9 +15,9 @@ public G pop(){
 public G peek(){
     return list.peek();
 }
-//public boolean hasItem(){
-//    return !list.isEmpty();
-//}
+public boolean hasItem(){
+    return !list.isEmpty();
+}
 //public int size(){
 //    return list.size();
 //}
