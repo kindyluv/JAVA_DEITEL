@@ -9,9 +9,9 @@ public void push(G item){
     list.addFirst(item);
     System.out.println(list);
 }
-//public G pop(){
-//    return list.poll();
-//}
+public G pop(){
+    return list.poll();
+}
 //public G peek(){
 //    return list.peek();
 //}
