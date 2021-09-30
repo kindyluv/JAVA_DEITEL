@@ -12,9 +12,9 @@ public void push(G item){
 public G pop(){
     return list.poll();
 }
-//public G peek(){
-//    return list.peek();
-//}
+public G peek(){
+    return list.peek();
+}
 //public boolean hasItem(){
 //    return !list.isEmpty();
 //}
