@@ -18,9 +18,9 @@ public G peek(){
 public boolean hasItem(){
     return !list.isEmpty();
 }
-//public int size(){
-//    return list.size();
-//}
+public int size(){
+    return list.size();
+}
 //
 //    public static void main(String[] args) {
 //        GenStack<String> liks = new GenStack<>();
