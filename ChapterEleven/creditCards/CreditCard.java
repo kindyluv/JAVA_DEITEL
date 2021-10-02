@@ -11,11 +11,11 @@ public class CreditCard {
         return visaCard.charAt(0) == '4';
 
     }
-//
-//    public static boolean checkMasterCard(long number) {
-//        String masterCard = String.valueOf(number);
-//        return masterCard.charAt(0) == '5';
-//    }
+
+    public static boolean checkMasterCard(long number) {
+        String masterCard = String.valueOf(number);
+        return masterCard.charAt(0) == '5';
+    }
 //
 //    public static boolean digit(long size) {
 //        String cardDigitLength = String.valueOf(size);
