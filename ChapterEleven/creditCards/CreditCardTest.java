@@ -23,12 +23,12 @@ class CreditCardTest {
         assertFalse(CreditCardValidation.digit(111111111111111111L));
     }
 
-//    @Test
-//    void testThatCreditCardCanOnlyBeBetween13And16DigitsLong(){
-//        assertTrue(CreditCardValidation.digit(12345678901234L));
-//        assertTrue(CreditCardValidation.digit(123456789012345L));
-//    }
-//
+    @Test
+    void testThatCreditCardCanOnlyBeBetween13And16DigitsLong(){
+        assertTrue(CreditCardValidation.digit(12345678901234L));
+        assertTrue(CreditCardValidation.digit(123456789012345L));
+    }
+
 //    @Test
 //    void testThatCreditCardCanOnlyBe13And16DigitsLong(){
 //        assertTrue(CreditCardValidation.digit(1234567890123L));
