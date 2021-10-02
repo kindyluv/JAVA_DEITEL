@@ -55,13 +55,13 @@ public class CreditCard {
         return sum;
     }
 
-//    public static boolean isValid(long number) {
-//        int even = sumOfDoubleEvenPlace(number);
-//        int odd = sumOfOddPlaces(number);
-//        int sum = even + odd;
-//        return sum % 10 == 0;
-//    }
-//
+    public static boolean isValid(long number) {
+        int even = sumOfDoubleEvenPlace(number);
+        int odd = sumOfOddPlaces(number);
+        int sum = even + odd;
+        return sum % 10 == 0;
+    }
+
 //    public static void main(String[] args) {
 //        System.out.println(checkVisaCard(4388576018402626L));
 //    }
