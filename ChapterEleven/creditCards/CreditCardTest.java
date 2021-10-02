@@ -70,4 +70,14 @@ class CreditCardTest {
     void testThatCreditCardTypeDiscoverCardStartsWith6(){
         assertEquals(CreditCardType.DISCOVER_CARD,CreditCard.checkCardType(6388576018456788L));
     }
+
+    @Test
+    void testThatCreditCardCanGetSize(){
+        assertEquals(14,CreditCard.getSize(11111111111111L));
+    }
+
+//    @Test
+//    void testThatCreditCardCanGetDigit(){
+//        assertEquals(3, CreditCard.getDigit(6));
+//    }
 }
