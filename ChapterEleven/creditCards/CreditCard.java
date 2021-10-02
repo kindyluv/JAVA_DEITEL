@@ -36,25 +36,25 @@ public class CreditCard {
         return digit;
     }
 
-//    public static int sumOfDoubleEvenPlace(long number) {
-//        int sum = 0;
-//        int multiplication;
-//        String numb = String.valueOf(number);
-//        int lengthOfNumbers = numb.length();
-//        for (int i = lengthOfNumbers - 2; i >= 0 ; i -= 2) {
-//            multiplication = Character.getNumericValue(numb.charAt(i)) * 2;
-//            if (multiplication < 10) {
-//                sum += multiplication;
-//            } else {
-//                String value = String.valueOf(multiplication);
-//                sum += Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
-//            }
-////            else sum += Integer.parseInt(String.valueOf(numb.charAt(count)))*2;
-//
-//        }
-//        return sum;
-//    }
-//
+    public static int sumOfDoubleEvenPlace(long number) {
+        int sum = 0;
+        int multiplication;
+        String numb = String.valueOf(number);
+        int lengthOfNumbers = numb.length();
+        for (int i = lengthOfNumbers - 2; i >= 0 ; i -= 2) {
+            multiplication = Character.getNumericValue(numb.charAt(i)) * 2;
+            if (multiplication < 10) {
+                sum += multiplication;
+            } else {
+                String value = String.valueOf(multiplication);
+                sum += Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
+            }
+//            else sum += Integer.parseInt(String.valueOf(numb.charAt(count)))*2;
+
+        }
+        return sum;
+    }
+
 //    public static boolean isValid(long number) {
 //        int even = sumOfDoubleEvenPlace(number);
 //        int odd = sumOfOddPlaces(number);
