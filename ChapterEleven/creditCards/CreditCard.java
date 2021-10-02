@@ -57,17 +57,17 @@ public class CreditCard {
 
     }
 
-//    public static int getDigit(int number) {
-//        int digit;
-//        int multiplication = number * 2;
-//            if (multiplication < 10) {
-//                digit = multiplication;
-//            } else {
-//                String value = String.valueOf(multiplication);
-//                digit = Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
-//            }
-//        return digit;
-//    }
+    public static int getDigit(int number) {
+        int digit;
+        int multiplication = number * 2;
+            if (multiplication < 10) {
+                digit = multiplication;
+            } else {
+                String value = String.valueOf(multiplication);
+                digit = Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
+            }
+        return digit;
+    }
 
 //    public static int sumOfDoubleEvenPlace(long number) {
 //        int sum = 0;
