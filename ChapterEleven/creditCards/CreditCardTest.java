@@ -18,11 +18,11 @@ class CreditCardTest {
         assertTrue(CreditCard.digit(1111111111111111L));
     }
 
-//    @Test
-//    void testThatCreditCardCanCalculateSumOfOddPlaces(){
-//        assertEquals(41,CreditCard.sumOfOddPlaces(4388576018410707L));
-//    }
-//
+    @Test
+    void testThatCreditCardCanCalculateSumOfOddPlaces(){
+        assertEquals(41,CreditCard.sumOfOddPlaces(4388576018410707L));
+    }
+
 //    @Test
 //    void testThatCreditCardCanCalculateSumOfDoubleEvenPlace(){
 //        assertEquals(37,CreditCard.sumOfDoubleEvenPlace(4388576018402626L));
