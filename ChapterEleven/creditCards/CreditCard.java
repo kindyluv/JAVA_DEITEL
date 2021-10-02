@@ -69,15 +69,15 @@ public class CreditCard {
         return digit;
     }
 
-//    public static int sumOfDoubleEvenPlace(long number) {
-//        int sum = 0;
-//        String numb = String.valueOf(number);
-//        for (int i = numb.length() - 2; i >= 0 ; i -= 2) {
-//            sum += getDigit(Character.getNumericValue(numb.charAt(i)));
-//        }
-//        return sum;
-//    }
-//
+    public static int sumOfDoubleEvenPlace(long number) {
+        int sum = 0;
+        String numb = String.valueOf(number);
+        for (int i = numb.length() - 2; i >= 0 ; i -= 2) {
+            sum += getDigit(Character.getNumericValue(numb.charAt(i)));
+        }
+        return sum;
+    }
+
 //    public static int getSize(long number) {
 //        return String.valueOf(number).length();
 //    }
