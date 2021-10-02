@@ -61,11 +61,11 @@ class CreditCardTest {
         assertEquals(CreditCardType.MASTER_CARD,CreditCard.checkCardType(5388576018456788L));
     }
 
-//    @Test
-//    void testThatCreditCardTypeAmericanExpressCardStartsWith37(){
-//        assertEquals(CreditCardType.AMERICA_EXPRESS,CreditCard.checkCardType(3788576018456788L));
-//    }
-//
+    @Test
+    void testThatCreditCardTypeAmericanExpressCardStartsWith37(){
+        assertEquals(CreditCardType.AMERICA_EXPRESS,CreditCard.checkCardType(3788576018456788L));
+    }
+
 //    @Test
 //    void testThatCreditCardTypeDiscoverCardStartsWith6(){
 //        assertEquals(CreditCardType.DISCOVER_CARD,CreditCard.checkCardType(6388576018456788L));
