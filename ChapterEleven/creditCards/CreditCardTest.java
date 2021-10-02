@@ -76,8 +76,8 @@ class CreditCardTest {
         assertEquals(14,CreditCard.getSize(11111111111111L));
     }
 
-//    @Test
-//    void testThatCreditCardCanGetDigit(){
-//        assertEquals(3, CreditCard.getDigit(6));
-//    }
+    @Test
+    void testThatCreditCardCanGetDigit(){
+        assertEquals(3, CreditCard.getDigit(6));
+    }
 }
