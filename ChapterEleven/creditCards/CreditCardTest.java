@@ -29,11 +29,11 @@ class CreditCardTest {
         assertTrue(CreditCardValidation.digit(123456789012345L));
     }
 
-//    @Test
-//    void testThatCreditCardCanOnlyBe13And16DigitsLong(){
-//        assertTrue(CreditCardValidation.digit(1234567890123L));
-//        assertTrue(CreditCardValidation.digit(1234567890123456L));
-//    }
+    @Test
+    void testThatCreditCardCanOnlyBe13And16DigitsLong(){
+        assertTrue(CreditCardValidation.digit(1234567890123L));
+        assertTrue(CreditCardValidation.digit(1234567890123456L));
+    }
 
     @Test
     void testThatCreditCardCanCalculateSumOfOddPlaces(){
