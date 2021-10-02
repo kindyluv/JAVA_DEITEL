@@ -78,9 +78,9 @@ public class CreditCard {
         return sum;
     }
 
-//    public static int getSize(long number) {
-//        return String.valueOf(number).length();
-//    }
+    public static int getSize(long number) {
+        return String.valueOf(number).length();
+    }
 
 //    public static boolean isValid(long number) {
 //        int even = sumOfDoubleEvenPlace(number);
