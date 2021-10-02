@@ -4,25 +4,25 @@ package creditCard;
 public class CreditCard {
     private static CreditCardType creditCardType;
 
-//    public static CreditCardType checkCardType(long number) {
-//        String number_ = String.valueOf(number);
-//        String prefix = String.valueOf(number_.charAt(0));
-//        switch (prefix) {
-//            case "4":
-//                creditCardType = CreditCardType.VISA_CARD;
-//                break;
-//            case "5":
-//                creditCardType = CreditCardType.MASTER_CARD;
-//                break;
-//            case "6":
-//                creditCardType = CreditCardType.DISCOVER_CARD;
-//                break;
-//            case "3":
-//                if (String.valueOf(number_.charAt(1)).equals("7"))
-//                    creditCardType = CreditCardType.AMERICA_EXPRESS;
-//        }
-//        return creditCardType;
-//    }
+    public static CreditCardType checkCardType(long number) {
+        String number_ = String.valueOf(number);
+        String prefix = String.valueOf(number_.charAt(0));
+        switch (prefix) {
+            case "4":
+                creditCardType = CreditCardType.VISA_CARD;
+                break;
+            case "5":
+                creditCardType = CreditCardType.MASTER_CARD;
+                break;
+            case "6":
+                creditCardType = CreditCardType.DISCOVER_CARD;
+                break;
+            case "3":
+                if (String.valueOf(number_.charAt(1)).equals("7"))
+                    creditCardType = CreditCardType.AMERICA_EXPRESS;
+        }
+        return creditCardType;
+    }
 
 //    public static boolean checkMasterCard(long number) {
 //        String masterCard = String.valueOf(number);
