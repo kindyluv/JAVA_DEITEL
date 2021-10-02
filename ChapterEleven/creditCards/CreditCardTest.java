@@ -28,11 +28,11 @@ class CreditCardTest {
         assertEquals(37,CreditCard.sumOfDoubleEvenPlace(4388576018402626L));
     }
 
-//    @Test
-//    void testThatCreditCardNumberCanBeValidated(){
-//        assertTrue(CreditCard.isValid( 4388576018410707L));
-//    }
-//
+    @Test
+    void testThatCreditCardNumberCanBeValidated(){
+        assertTrue(CreditCard.isValid( 4388576018410707L));
+    }
+
 //    @Test
 //    void testThatCreditCardTypeVisaCardStartsWithFour4(long number){
 //       assertTrue(CreditCard.checkVisaCard(4388576018410707L));
