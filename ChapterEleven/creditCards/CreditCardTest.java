@@ -56,11 +56,11 @@ class CreditCardTest {
        assertEquals(CreditCardType.VISA_CARD,CreditCard.checkCardType(4388576018410707L));
     }
 
-//    @Test
-//    void testThatCreditCardTypeVisaCardStartsWithFive5(){
-//        assertEquals(CreditCardType.MASTER_CARD,CreditCard.checkCardType(5388576018456788L));
-//    }
-//
+    @Test
+    void testThatCreditCardTypeVisaCardStartsWithFive5(){
+        assertEquals(CreditCardType.MASTER_CARD,CreditCard.checkCardType(5388576018456788L));
+    }
+
 //    @Test
 //    void testThatCreditCardTypeAmericanExpressCardStartsWith37(){
 //        assertEquals(CreditCardType.AMERICA_EXPRESS,CreditCard.checkCardType(3788576018456788L));
