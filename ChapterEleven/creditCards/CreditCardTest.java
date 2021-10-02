@@ -33,11 +33,11 @@ class CreditCardTest {
         assertTrue(CreditCard.isValid( 4388576018410707L));
     }
 
-//    @Test
-//    void testThatCreditCardTypeVisaCardStartsWithFour4(long number){
-//       assertTrue(CreditCard.checkVisaCard(4388576018410707L));
-//    }
-//
+    @Test
+    void testThatCreditCardTypeVisaCardStartsWithFour4(long number){
+       assertTrue(CreditCard.checkVisaCard(4388576018410707L));
+    }
+
 //    @Test
 //    void testThatCreditCardTypeVisaCardStartsWithFive5(){
 //        assertTrue(CreditCard.checkMasterCard(5388576018456788L));
