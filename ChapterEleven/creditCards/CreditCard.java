@@ -21,17 +21,17 @@ public class CreditCard {
         String cardDigitLength = String.valueOf(size);
         return cardDigitLength.length() >= 13 && cardDigitLength.length() <= 16;
     }
-//
-//    public static int sumOfOddPlaces(long number) {
-//        int sum = 0;
-//        String numb = String.valueOf(number);
-//        int lengthOfNumber = numb.length();
-//        for (int i = lengthOfNumber - 1; i >= 0; i -= 2) sum += Integer.parseInt(String.valueOf(numb.charAt(i)));
-////        System.out.println(sum);
-//        return sum;
-//
-//    }
-//
+
+    public static int sumOfOddPlaces(long number) {
+        int sum = 0;
+        String numb = String.valueOf(number);
+        int lengthOfNumber = numb.length();
+        for (int i = lengthOfNumber - 1; i >= 0; i -= 2) sum += Integer.parseInt(String.valueOf(numb.charAt(i)));
+//        System.out.println(sum);
+        return sum;
+
+    }
+
 //    public static int getDigit() {
 //        return digit;
 //    }
