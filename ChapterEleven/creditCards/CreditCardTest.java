@@ -38,8 +38,8 @@ class CreditCardTest {
        assertTrue(CreditCard.checkVisaCard(4388576018410707L));
     }
 
-//    @Test
-//    void testThatCreditCardTypeVisaCardStartsWithFive5(){
-//        assertTrue(CreditCard.checkMasterCard(5388576018456788L));
-//    }
+    @Test
+    void testThatCreditCardTypeVisaCardStartsWithFive5(){
+        assertTrue(CreditCard.checkMasterCard(5388576018456788L));
+    }
 }
