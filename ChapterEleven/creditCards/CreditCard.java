@@ -32,10 +32,10 @@ public class CreditCard {
 
     }
 
-//    public static int getDigit() {
-//        return digit;
-//    }
-//
+    public static int getDigit() {
+        return digit;
+    }
+
 //    public static int sumOfDoubleEvenPlace(long number) {
 //        int sum = 0;
 //        int multiplication;
