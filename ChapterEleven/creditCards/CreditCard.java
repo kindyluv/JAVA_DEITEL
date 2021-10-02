@@ -1,31 +1,28 @@
 package creditCard;
 
-//import static PersonalFolder.ArrayListClass.numbs;
-import static java.lang.Long.parseLong;
 
 public class CreditCard {
-    private static int digit;
     private static CreditCardType creditCardType;
 
-    public static CreditCardType checkCardType(long number) {
-        String number_ = String.valueOf(number);
-        String prefix = String.valueOf(number_.charAt(0));
-        switch (prefix) {
-            case "4":
-                creditCardType = CreditCardType.VISA_CARD;
-                break;
-            case "5":
-                creditCardType = CreditCardType.MASTER_CARD;
-                break;
-            case "6":
-                creditCardType = CreditCardType.DISCOVER_CARD;
-                break;
-            case "3":
-                if (String.valueOf(number_.charAt(1)).equals("7"))
-                    creditCardType = CreditCardType.AMERICA_EXPRESS;
-        }
-        return creditCardType;
-    }
+//    public static CreditCardType checkCardType(long number) {
+//        String number_ = String.valueOf(number);
+//        String prefix = String.valueOf(number_.charAt(0));
+//        switch (prefix) {
+//            case "4":
+//                creditCardType = CreditCardType.VISA_CARD;
+//                break;
+//            case "5":
+//                creditCardType = CreditCardType.MASTER_CARD;
+//                break;
+//            case "6":
+//                creditCardType = CreditCardType.DISCOVER_CARD;
+//                break;
+//            case "3":
+//                if (String.valueOf(number_.charAt(1)).equals("7"))
+//                    creditCardType = CreditCardType.AMERICA_EXPRESS;
+//        }
+//        return creditCardType;
+//    }
 
 //    public static boolean checkMasterCard(long number) {
 //        String masterCard = String.valueOf(number);
@@ -56,33 +53,34 @@ public class CreditCard {
         String numb = String.valueOf(number);
         int lengthOfNumber = numb.length();
         for (int i = lengthOfNumber - 1; i >= 0; i -= 2) sum += Integer.parseInt(String.valueOf(numb.charAt(i)));
-//        System.out.println(sum);
         return sum;
 
     }
 
-    public static int getDigit() {
-        return digit;
-    }
+//    public static int getDigit(int number) {
+//        int digit;
+//        int multiplication = number * 2;
+//            if (multiplication < 10) {
+//                digit = multiplication;
+//            } else {
+//                String value = String.valueOf(multiplication);
+//                digit = Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
+//            }
+//        return digit;
+//    }
 
-    public static int sumOfDoubleEvenPlace(long number) {
-        int sum = 0;
-        int multiplication;
-        String numb = String.valueOf(number);
-        int lengthOfNumbers = numb.length();
-        for (int i = lengthOfNumbers - 2; i >= 0 ; i -= 2) {
-            multiplication = Character.getNumericValue(numb.charAt(i)) * 2;
-            if (multiplication < 10) {
-                sum += multiplication;
-            } else {
-                String value = String.valueOf(multiplication);
-                sum += Character.getNumericValue(value.charAt(0)) + Character.getNumericValue(value.charAt(1));
-            }
-//            else sum += Integer.parseInt(String.valueOf(numb.charAt(count)))*2;
-
-        }
-        return sum;
-    }
+//    public static int sumOfDoubleEvenPlace(long number) {
+//        int sum = 0;
+//        String numb = String.valueOf(number);
+//        for (int i = numb.length() - 2; i >= 0 ; i -= 2) {
+//            sum += getDigit(Character.getNumericValue(numb.charAt(i)));
+//        }
+//        return sum;
+//    }
+//
+//    public static int getSize(long number) {
+//        return String.valueOf(number).length();
+//    }
 
 //    public static boolean isValid(long number) {
 //        int even = sumOfDoubleEvenPlace(number);
