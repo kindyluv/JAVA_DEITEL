@@ -26,11 +26,11 @@ class TikTakToe {
 
     }
 
-//    public void playerMove(Players player, int position) {
-//        if (player == Players.PLAYER1) setPostion(position, X);
-//        else setPostion(position, O);
-//    }
-//
+    public void playerMove(Players player, int position) {
+        if (player == Players.PLAYER1) setPostion(position, X);
+        else setPostion(position, O);
+    }
+
 //    public void play() {
 //        if (cellElement != EMPTY){
 //            System.out.println("Player has to play in an empty cell");
