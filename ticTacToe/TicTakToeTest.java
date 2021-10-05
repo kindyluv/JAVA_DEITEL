@@ -78,11 +78,11 @@ class TicTakToeTest {
         assertNotNull(ticTakToe.getCellElement());
     }
 
-//    @Test
-//    void testThatTicTacToeHasTwoPlayers(){
-//        assertEquals(2, ticTakToe.getPlayers().values().length);
-//    }
-//
+    @Test
+    void testThatTicTacToeHasTwoPlayers(){
+        assertEquals(2, ticTakToe.getPlayers().values().length);
+    }
+
 //    @Test
 //    void testThatTicTacToeHasPlayerOne(){
 //        ticTakToe.setPlayer(PLAYER1);
