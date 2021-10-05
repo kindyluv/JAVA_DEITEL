@@ -163,15 +163,15 @@ class TicTakToeTest {
         ticTakToe.playerMove(PLAYER1,6);
         assertTrue(Game.winningPlayer(Board.getBoard()));
     }
-//
-//    @Test
-//    void testThatGameCanBeWonInRowThree(){
-//        ticTakToe.playerMove(PLAYER2, 7);
-//        ticTakToe.playerMove(PLAYER2,8);
-//        ticTakToe.playerMove(PLAYER2,9);
-//        assertTrue(Game.winningPlayer(Board.getBoard()));
-//    }
-//
+
+    @Test
+    void testThatGameCanBeWonInRowThree(){
+        ticTakToe.playerMove(PLAYER2, 7);
+        ticTakToe.playerMove(PLAYER2,8);
+        ticTakToe.playerMove(PLAYER2,9);
+        assertTrue(Game.winningPlayer(Board.getBoard()));
+    }
+
 //    @Test
 //    void testThatGameCanBeWonInColumnOne(){
 //        ticTakToe.playerMove(PLAYER1,1);
