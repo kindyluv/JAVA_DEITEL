@@ -37,10 +37,10 @@ class TikTakToe {
         }
     }
 
-//    public void setPlayer(Players player) {
-//        this.players = player;
-//    }
-//
+    public void setPlayer(Players player) {
+        this.players = player;
+    }
+
 //    public String[][] getArray() {
 //        return Board.array;
 //    }
