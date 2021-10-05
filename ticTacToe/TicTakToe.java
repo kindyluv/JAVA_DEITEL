@@ -21,11 +21,11 @@ class TikTakToe {
         return cellElement;
     }
 
-//    public Players getPlayers() {
-//        return players;
-//
-//    }
-//
+    public Players getPlayers() {
+        return players;
+
+    }
+
 //    public void playerMove(Players player, int position) {
 //        if (player == Players.PLAYER1) setPostion(position, X);
 //        else setPostion(position, O);
