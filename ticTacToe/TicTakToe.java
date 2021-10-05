@@ -59,16 +59,16 @@ class TikTakToe {
         }
     }
 
-//    public void setPostion(int position, TicTacToeType board){
-//        for (int row = 0; row < playerBoard.length; row++) {
-//            for (int column = 0; column < playerBoard[row].length; column++) {
-////                if (playBoard[row][column] == String.valueOf(EMPTY)){
-//                    setBoardPosition(position, board);
-////                }
-////                else throw new InputMismatchException("You cant play in an already filled board");
-//            }
-//        }
-//    }
+    public void setPostion(int position, TicTacToeType board){
+        for (int row = 0; row < playerBoard.length; row++) {
+            for (int column = 0; column < playerBoard[row].length; column++) {
+//                if (playBoard[row][column] == String.valueOf(EMPTY)){
+                    setBoardPosition(position, board);
+//                }
+//                else throw new InputMismatchException("You cant play in an already filled board");
+            }
+        }
+    }
 
 
 
