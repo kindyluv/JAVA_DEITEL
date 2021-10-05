@@ -121,12 +121,12 @@ class TicTakToeTest {
         assertEquals("O", Board.getBoard()[2][1]);
     }
 
-////    @Test
-////    void testThatTicTacToeCanPrintOnBoard(){
-////        Board ticBoard = new Board();
-////        ticBoard.printOnBoard();
-////    }
-//
+    @Test
+    void testThatTicTacToeCanPrintOnBoard(){
+        Board ticBoard = new Board();
+        ticBoard.printOnBoard();
+    }
+
 //    @Test
 //    void testThatBoardIsEmptyByDefault(){
 //        assertEquals(EMPTY, ticTakToe.getCellElement());
