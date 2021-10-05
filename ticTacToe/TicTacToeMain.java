@@ -35,15 +35,15 @@ public class TicTacToeMain {
         System.out.println(playing + " WINS!");
     }
 
-//    private static Players getCurrentPlayer(Players player) {
-//        if (player == PLAYER1) {
-//            player = PLAYER2;
-//        } else {
-//            player = PLAYER1;
-//        }
-//        return player;
-//    }
-//
+    private static Players getCurrentPlayer(Players player) {
+        if (player == PLAYER1) {
+            player = PLAYER2;
+        } else {
+            player = PLAYER1;
+        }
+        return player;
+    }
+
 //    private static int input(String prompt) {
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println(prompt);
