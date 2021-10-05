@@ -44,11 +44,11 @@ public class TicTacToeMain {
         return player;
     }
 
-//    private static int input(String prompt) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(prompt);
-//        return scanner.nextInt();
-//    }
+    private static int input(String prompt) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(prompt);
+        return scanner.nextInt();
+    }
 
 
 }
