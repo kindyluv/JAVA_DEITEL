@@ -25,13 +25,13 @@ public Board(TicTacToeType ticTacToeType) {
             System.out.println("_________");
        }
     }
-//
-//    public boolean boardIsFull() {
-//        if (array[row-1][column-1] == "X" || array[row-1][column-1] == "O") {
-//            return true;
-//        }return false;
-//    }
-//
+
+    public boolean boardIsFull() {
+        if (array[row-1][column-1] == "X" || array[row-1][column-1] == "O") {
+            return true;
+        }return false;
+    }
+
 //    public String[][] getArray() {
 //        return array;
 //    }
