@@ -89,12 +89,12 @@ class TicTakToeTest {
         assertEquals(PLAYER1, ticTakToe.getPlayers());
     }
 
-//    @Test
-//    void testThatTicTacToeHasPlayerTwo(){
-//        ticTakToe.setPlayer(Players.PLAYER2);
-//        assertEquals(Players.PLAYER2, ticTakToe.getPlayers());
-//    }
-//
+    @Test
+    void testThatTicTacToeHasPlayerTwo(){
+        ticTakToe.setPlayer(Players.PLAYER2);
+        assertEquals(Players.PLAYER2, ticTakToe.getPlayers());
+    }
+
 //    @Test
 //    void testThatPlayerOneCanPlay(){
 //        ticTakToe.playerMove(PLAYER1,1);
