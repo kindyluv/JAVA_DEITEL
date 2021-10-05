@@ -41,10 +41,10 @@ class TikTakToe {
         this.players = player;
     }
 
-//    public String[][] getArray() {
-//        return Board.array;
-//    }
-//
+    public String[][] getArray() {
+        return Board.array;
+    }
+
 //    public void setBoardPosition(int position, TicTacToeType board) {
 //        switch (position){
 //            case 1 -> playerBoard[0][0] = String.valueOf(board);
