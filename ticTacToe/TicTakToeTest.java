@@ -107,20 +107,20 @@ class TicTakToeTest {
         assertEquals("X", Board.getBoard()[2][0]);
     }
 
-//    @Test
-//    void testThatPlayerTwoCanPlay(){
-//        ticTakToe.playerMove(PLAYER2,3);
-//        assertEquals("O", Board.getBoard()[0][2]);
-//        ticTakToe.playerMove(PLAYER2,2);
-//        assertEquals("O", Board.getBoard()[0][1]);
-//        ticTakToe.playerMove(PLAYER2,9);
-//        assertEquals("O", Board.getBoard()[2][2]);
-//        ticTakToe.playerMove(PLAYER2,6);
-//        assertEquals("O", Board.getBoard()[1][2]);
-//        ticTakToe.playerMove(PLAYER2,8);
-//        assertEquals("O", Board.getBoard()[2][1]);
-//    }
-//
+    @Test
+    void testThatPlayerTwoCanPlay(){
+        ticTakToe.playerMove(PLAYER2,3);
+        assertEquals("O", Board.getBoard()[0][2]);
+        ticTakToe.playerMove(PLAYER2,2);
+        assertEquals("O", Board.getBoard()[0][1]);
+        ticTakToe.playerMove(PLAYER2,9);
+        assertEquals("O", Board.getBoard()[2][2]);
+        ticTakToe.playerMove(PLAYER2,6);
+        assertEquals("O", Board.getBoard()[1][2]);
+        ticTakToe.playerMove(PLAYER2,8);
+        assertEquals("O", Board.getBoard()[2][1]);
+    }
+
 ////    @Test
 ////    void testThatTicTacToeCanPrintOnBoard(){
 ////        Board ticBoard = new Board();
