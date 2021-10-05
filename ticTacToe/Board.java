@@ -40,14 +40,14 @@ public Board(TicTacToeType ticTacToeType) {
         return array;
     }
 
-//    public static boolean isBoardFull(int row, int col) {
-//        if (array[row - 1][col - 1] == "X" ||
-//            array[row - 1][col - 1] == "O") {
-//            return true;
-//        }
-//        return false;
-//    }
-//
+    public static boolean isBoardFull(int row, int col) {
+        if (array[row - 1][col - 1] == "X" ||
+            array[row - 1][col - 1] == "O") {
+            return true;
+        }
+        return false;
+    }
+
 //    public static boolean outOfBound() {
 //        if (row > 3 || column > 3) {
 //            System.err.println("There is no row or column");
