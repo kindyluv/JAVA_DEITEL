@@ -127,11 +127,11 @@ class TicTakToeTest {
         ticBoard.printOnBoard();
     }
 
-//    @Test
-//    void testThatBoardIsEmptyByDefault(){
-//        assertEquals(EMPTY, ticTakToe.getCellElement());
-//    }
-//
+    @Test
+    void testThatBoardIsEmptyByDefault(){
+        assertEquals(EMPTY, ticTakToe.getCellElement());
+    }
+
 //    @Test
 //    void testThatPlayersCanOnlyMoveToAnEmptyCell(){
 //        ticTakToe.play();
