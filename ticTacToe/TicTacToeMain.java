@@ -20,21 +20,21 @@ public class TicTacToeMain {
     private static Players player = PLAYER1;
 
 
-//    public static void main(String[] args) {
-//        String playing = "";
-//
-//        while (!isNotPlaying) {
-//            player = getCurrentPlayer(player);
-//            if (player == PLAYER1) playing = "Player 1";
-//            else playing = "Player 2";
-//
-//            ticTakToe.playerMove(player, input(playing));
-//            isNotPlaying = Game.winningPlayer(playBoard);
-//            board.printOnBoard();
-//        }
-//        System.out.println(playing + " WINS!");
-//    }
-//
+    public static void main(String[] args) {
+        String playing = "";
+
+        while (!isNotPlaying) {
+            player = getCurrentPlayer(player);
+            if (player == PLAYER1) playing = "Player 1";
+            else playing = "Player 2";
+
+            ticTakToe.playerMove(player, input(playing));
+            isNotPlaying = Game.winningPlayer(playBoard);
+            board.printOnBoard();
+        }
+        System.out.println(playing + " WINS!");
+    }
+
 //    private static Players getCurrentPlayer(Players player) {
 //        if (player == PLAYER1) {
 //            player = PLAYER2;
