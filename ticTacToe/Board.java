@@ -32,10 +32,10 @@ public Board(TicTacToeType ticTacToeType) {
         }return false;
     }
 
-//    public String[][] getArray() {
-//        return array;
-//    }
-//
+    public String[][] getArray() {
+        return array;
+    }
+
 //    public static String[][] getBoard() {
 //        return array;
 //    }
