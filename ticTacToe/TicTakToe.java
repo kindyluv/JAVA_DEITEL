@@ -16,11 +16,11 @@ class TikTakToe {
     public Board getBoard() {
         return board;
     }
-//
-//    public TicTacToeType getCellElement() {
-//        return cellElement;
-//    }
-//
+
+    public TicTacToeType getCellElement() {
+        return cellElement;
+    }
+
 //    public Players getPlayers() {
 //        return players;
 //
