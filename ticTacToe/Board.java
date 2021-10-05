@@ -48,12 +48,12 @@ public Board(TicTacToeType ticTacToeType) {
         return false;
     }
 
-//    public static boolean outOfBound() {
-//        if (row > 3 || column > 3) {
-//            System.err.println("There is no row or column");
-//            return true;
-//
-//        }
-//        return false;
-//    }
+    public static boolean outOfBound() {
+        if (row > 3 || column > 3) {
+            System.err.println("There is no row or column");
+            return true;
+
+        }
+        return false;
+    }
     }
