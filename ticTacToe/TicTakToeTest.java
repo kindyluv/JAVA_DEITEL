@@ -72,12 +72,12 @@ class TicTakToeTest {
     void testThatTicTacToeHasABoard(){
         assertNotNull(ticTakToe.getBoard());
     }
-//
-//    @Test
-//    void testThatBoardHasElements(){
-//        assertNotNull(ticTakToe.getCellElement());
-//    }
-//
+
+    @Test
+    void testThatBoardHasElements(){
+        assertNotNull(ticTakToe.getCellElement());
+    }
+
 //    @Test
 //    void testThatTicTacToeHasTwoPlayers(){
 //        assertEquals(2, ticTakToe.getPlayers().values().length);
