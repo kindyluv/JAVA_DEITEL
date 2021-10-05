@@ -15,16 +15,16 @@ public Board(TicTacToeType ticTacToeType) {
     }
 }
 
-//    public static void printOnBoard() {
-//        System.out.println("_________");
-//        for (int row = 0; row < array.length; row++) {
-//            for (int column = 0; column < array[row].length; column++) {
-//                if (column == array[row].length - 1) System.out.println(array[row][column]);
-//                else System.out.print(array[row][column]+ " | ");
-//            }
-//            System.out.println("_________");
-//       }
-//    }
+    public static void printOnBoard() {
+        System.out.println("_________");
+        for (int row = 0; row < array.length; row++) {
+            for (int column = 0; column < array[row].length; column++) {
+                if (column == array[row].length - 1) System.out.println(array[row][column]);
+                else System.out.print(array[row][column]+ " | ");
+            }
+            System.out.println("_________");
+       }
+    }
 //
 //    public boolean boardIsFull() {
 //        if (array[row-1][column-1] == "X" || array[row-1][column-1] == "O") {
