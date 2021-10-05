@@ -36,9 +36,9 @@ public Board(TicTacToeType ticTacToeType) {
         return array;
     }
 
-//    public static String[][] getBoard() {
-//        return array;
-//    }
+    public static String[][] getBoard() {
+        return array;
+    }
 
 //    public static boolean isBoardFull(int row, int col) {
 //        if (array[row - 1][col - 1] == "X" ||
