@@ -132,12 +132,12 @@ class TicTakToeTest {
         assertEquals(EMPTY, ticTakToe.getCellElement());
     }
 
-//    @Test
-//    void testThatPlayersCanOnlyMoveToAnEmptyCell(){
-//        ticTakToe.play();
-//        assertEquals(EMPTY, ticTakToe.getCellElement());
-//    }
-//
+    @Test
+    void testThatPlayersCanOnlyMoveToAnEmptyCell(){
+        ticTakToe.play();
+        assertEquals(EMPTY, ticTakToe.getCellElement());
+    }
+
 //    @Test
 //    void testThatTheGameCanBeWonByOneOfThePlayers(){
 //        ticTakToe.play();
