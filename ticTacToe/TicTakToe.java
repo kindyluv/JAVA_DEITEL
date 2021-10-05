@@ -31,12 +31,12 @@ class TikTakToe {
         else setPostion(position, O);
     }
 
-//    public void play() {
-//        if (cellElement != EMPTY){
-//            System.out.println("Player has to play in an empty cell");
-//        }
-//    }
-//
+    public void play() {
+        if (cellElement != EMPTY){
+            System.out.println("Player has to play in an empty cell");
+        }
+    }
+
 //    public void setPlayer(Players player) {
 //        this.players = player;
 //    }
