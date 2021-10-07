@@ -26,14 +26,14 @@ class TikTakToe {
         return player;
     }
 
-//    public void currentPlayerMarks(Players player, int position) {
-//        if (position > 0 && position < 10) {
-//            if (player == PLAYER1) setPosition(position, X);
-//            else if (player == PLAYER2) setPosition(position, O);
-//        }
-//        else throw new ArrayIndexOutOfBoundsException("You can only play between 1 & 9");
-//    }
-//
+    public void currentPlayerMarks(Players player, int position) {
+        if (position > 0 && position < 10) {
+            if (player == PLAYER1) setPosition(position, X);
+            else if (player == PLAYER2) setPosition(position, O);
+        }
+        else throw new ArrayIndexOutOfBoundsException("You can only play between 1 & 9");
+    }
+
 //    public void turnUserInputToBoardPosition(int position, CellElement cellElement) {
 //        switch (position){
 //            case 1 -> validateAndAcceptPlayerPosition(0,0,cellElement);
