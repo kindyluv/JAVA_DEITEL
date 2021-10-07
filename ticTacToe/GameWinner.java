@@ -23,13 +23,13 @@ public class GameWinner {
                 secondColumn(playerBoard)||
                 thirdColumn(playerBoard);
     }
-//
-//    public static boolean thirdColumn(String[][] playerBoard) {
-//        return (!Objects.equals(playerBoard[0][2], empty) &&
-//                playerBoard[0][2] == playerBoard[1][2] &&
-//                playerBoard[0][2] == playerBoard[2][2]);
-//    }
-//
+
+    public static boolean thirdColumn(String[][] playerBoard) {
+        return (!Objects.equals(playerBoard[0][2], empty) &&
+                playerBoard[0][2] == playerBoard[1][2] &&
+                playerBoard[0][2] == playerBoard[2][2]);
+    }
+
 //    public static boolean secondColumn(String[][] playerBoard) {
 //       return (!Objects.equals(playerBoard[0][1], empty) &&
 //               playerBoard[0][1] == playerBoard[1][1] &&
