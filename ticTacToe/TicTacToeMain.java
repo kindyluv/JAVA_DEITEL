@@ -46,19 +46,19 @@ public class TicTacToeMain {
         }
     }
 
-//    public static void printOnBoard() {
-//        System.out.println("_____________");
-//        for (int row = 0; row < playBoard.length; row++) {
-//            System.out.print("| ");
-//            for (int column = 0; column < playBoard[row].length; column++) {
-//                if (playBoard[row][column].equals(String.valueOf(EMPTY)))
-//                    System.out.print("_");
-//                else System.out.print(playBoard[row][column]);
-//                System.out.print(" | ");
-//            }
-//            System.out.println();
-//        }
-//        System.out.println("_____________");
-//    }
+    public static void printOnBoard() {
+        System.out.println("_____________");
+        for (int row = 0; row < playBoard.length; row++) {
+            System.out.print("| ");
+            for (int column = 0; column < playBoard[row].length; column++) {
+                if (playBoard[row][column].equals(String.valueOf(EMPTY)))
+                    System.out.print("_");
+                else System.out.print(playBoard[row][column]);
+                System.out.print(" | ");
+            }
+            System.out.println();
+        }
+        System.out.println("_____________");
+    }
 }
 
