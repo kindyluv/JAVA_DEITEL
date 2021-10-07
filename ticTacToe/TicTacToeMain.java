@@ -35,17 +35,17 @@ public class TicTacToeMain {
 
     }
 
-//    private static void getInputFromPlayer(Players player) {
-//        try {
-//            System.out.printf("%s: ", player.name());
-//            int input = scanner.nextInt();
-//            ticTakToe.currentPlayerMarks(player, input);
-//        } catch (InputMismatchException | ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
-//            System.err.println(e.getMessage());
-//            getInputFromPlayer(player);
-//        }
-//    }
-//
+    private static void getInputFromPlayer(Players player) {
+        try {
+            System.out.printf("%s: ", player.name());
+            int input = scanner.nextInt();
+            ticTakToe.currentPlayerMarks(player, input);
+        } catch (InputMismatchException | ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+            getInputFromPlayer(player);
+        }
+    }
+
 //    public static void printOnBoard() {
 //        System.out.println("_____________");
 //        for (int row = 0; row < playBoard.length; row++) {
