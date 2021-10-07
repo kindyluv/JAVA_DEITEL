@@ -48,12 +48,12 @@ public class GameWinner {
                 playerBoard[1][0] == playerBoard[1][2]);
     }
 
-//    public static boolean rightDiagonal(String[][] playerBoard) {
-//       return (!Objects.equals(playerBoard[0][2], empty) &&
-//               playerBoard[0][2] == playerBoard[1][1] &&
-//               playerBoard[0][2] == playerBoard[2][0]);
-//    }
-//
+    public static boolean rightDiagonal(String[][] playerBoard) {
+       return (!Objects.equals(playerBoard[0][2], empty) &&
+               playerBoard[0][2] == playerBoard[1][1] &&
+               playerBoard[0][2] == playerBoard[2][0]);
+    }
+
 //    public  static boolean firstColumn(String[][] playerBoard) {
 //       return(!Objects.equals(playerBoard[0][0], empty) &&
 //               playerBoard[0][0] == playerBoard[1][0] &&
