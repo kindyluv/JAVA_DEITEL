@@ -13,7 +13,7 @@ public class GameWinner {
     return isWinningCondition(playerBoard);
    }
 
-    private static boolean isWinningCondition(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
+    private static boolean isWinningCondition(String[][] playerBoard) {
         return leftDiagonal(playerBoard) ||
                 rightDiagonal(playerBoard) ||
                 firstRow(playerBoard) ||
@@ -23,52 +23,52 @@ public class GameWinner {
                 secondColumn(playerBoard)||
                 thirdColumn(playerBoard);
     }
-
-    static boolean thirdColumn(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-        return (!Objects.equals(playerBoard[0][2], empty) &&
-                playerBoard[0][2] == playerBoard[1][2] &&
-                playerBoard[0][2] == playerBoard[2][2]);
-    }
-
-    static boolean secondColumn(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-       return (!Objects.equals(playerBoard[0][1], empty) &&
-               playerBoard[0][1] == playerBoard[1][1] &&
-               playerBoard[0][1] == playerBoard[2][1]);
-    }
-
-    static boolean thirdRow(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-        return (!Objects.equals(playerBoard[2][0], empty) &&
-                playerBoard[2][0] == playerBoard[2][1] &&
-                playerBoard[2][0] == playerBoard[2][2]);
-    }
-
-    static boolean secondRow(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-        return (!Objects.equals(playerBoard[1][0], empty) &&
-                playerBoard[1][0] == playerBoard[1][1] &&
-                playerBoard[1][0] == playerBoard[1][2]);
-    }
-
-    static boolean rightDiagonal(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-       return (!Objects.equals(playerBoard[0][2], empty) &&
-               playerBoard[0][2] == playerBoard[1][1] &&
-               playerBoard[0][2] == playerBoard[2][0]);
-    }
-
-    static boolean firstColumn(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-       return(!Objects.equals(playerBoard[0][0], empty) &&
-               playerBoard[0][0] == playerBoard[1][0] &&
-               playerBoard[0][0] == playerBoard[2][0]);
-    }
-
-    static boolean firstRow(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-       return (!Objects.equals(playerBoard[0][0], empty) &&
-               playerBoard[0][0] == playerBoard[0][1] &&
-               playerBoard[0][0] == playerBoard[0][2]);
-}
-
-    static boolean leftDiagonal(String[][] playerBoard) throws ArrayIndexOutOfBoundsException{
-       return (!Objects.equals(playerBoard[0][0], empty) &&
-               playerBoard[0][0] == playerBoard[1][1] &&
-               playerBoard[0][0] == playerBoard[2][2]);
-    }
+//
+//    public static boolean thirdColumn(String[][] playerBoard) {
+//        return (!Objects.equals(playerBoard[0][2], empty) &&
+//                playerBoard[0][2] == playerBoard[1][2] &&
+//                playerBoard[0][2] == playerBoard[2][2]);
+//    }
+//
+//    public static boolean secondColumn(String[][] playerBoard) {
+//       return (!Objects.equals(playerBoard[0][1], empty) &&
+//               playerBoard[0][1] == playerBoard[1][1] &&
+//               playerBoard[0][1] == playerBoard[2][1]);
+//    }
+//
+//    public static boolean thirdRow(String[][] playerBoard) {
+//        return (!Objects.equals(playerBoard[2][0], empty) &&
+//                playerBoard[2][0] == playerBoard[2][1] &&
+//                playerBoard[2][0] == playerBoard[2][2]);
+//    }
+//
+//    public static boolean secondRow(String[][] playerBoard) {
+//        return (!Objects.equals(playerBoard[1][0], empty) &&
+//                playerBoard[1][0] == playerBoard[1][1] &&
+//                playerBoard[1][0] == playerBoard[1][2]);
+//    }
+//
+//    public static boolean rightDiagonal(String[][] playerBoard) {
+//       return (!Objects.equals(playerBoard[0][2], empty) &&
+//               playerBoard[0][2] == playerBoard[1][1] &&
+//               playerBoard[0][2] == playerBoard[2][0]);
+//    }
+//
+//    public  static boolean firstColumn(String[][] playerBoard) {
+//       return(!Objects.equals(playerBoard[0][0], empty) &&
+//               playerBoard[0][0] == playerBoard[1][0] &&
+//               playerBoard[0][0] == playerBoard[2][0]);
+//    }
+//
+//    public static boolean firstRow(String[][] playerBoard) {
+//       return (!Objects.equals(playerBoard[0][0], empty) &&
+//               playerBoard[0][0] == playerBoard[0][1] &&
+//               playerBoard[0][0] == playerBoard[0][2]);
+//}
+//
+//    public static boolean leftDiagonal(String[][] playerBoard) {
+//       return (!Objects.equals(playerBoard[0][0], empty) &&
+//               playerBoard[0][0] == playerBoard[1][1] &&
+//               playerBoard[0][0] == playerBoard[2][2]);
+//    }
 }
