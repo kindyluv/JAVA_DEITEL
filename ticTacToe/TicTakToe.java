@@ -16,16 +16,16 @@ class TikTakToe {
         return cellElement;
     }
 
-//    public Players getPlayers(Players player) {
-//        if (player == PLAYER1) {
-//            player = PLAYER2;
-//        } else {
-//            player = PLAYER1;
-//        }
-//
-//        return player;
-//    }
-//
+    public Players getPlayers(Players player) {
+        if (player == PLAYER1) {
+            player = PLAYER2;
+        } else {
+            player = PLAYER1;
+        }
+
+        return player;
+    }
+
 //    public void currentPlayerMarks(Players player, int position) {
 //        if (position > 0 && position < 10) {
 //            if (player == PLAYER1) setPosition(position, X);
