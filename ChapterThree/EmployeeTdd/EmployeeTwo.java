@@ -43,13 +43,13 @@ public class EmployeeTwo {
        monthlySalary = monthlySalary * 12;
        return monthlySalary;
     }
-    
-//    public double calculateNewSalary(double percentage) {
-//        percentage /=100;
-//        monthlySalary += monthlySalary * percentage;
-//        return monthlySalary;
-//    }
-//
+
+    public double calculateNewSalary(double percentage) {
+        percentage /=100;
+        monthlySalary += monthlySalary * percentage;
+        return monthlySalary;
+    }
+
 //    public double calculateNewSalaryInMoreThanOneMonth(double percentage, int months) {
 //        percentage /= 100;
 //        monthlySalary +=  monthlySalary * percentage;
