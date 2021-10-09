@@ -53,12 +53,12 @@ class EmployeeTwoTest {
         assertEquals(22000, employee1.calculateNewSalary(10));
     }
 
-//    @Test
-//    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentageInAYear() {
-//        employee1.setMonthlySalary(20000);
-//        assertEquals(264000, employee1.calculateNewSalaryInMoreThanOneMonth(10, 12));
-//    }
-//
+    @Test
+    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentageInAYear() {
+        employee1.setMonthlySalary(20000);
+        assertEquals(264000, employee1.calculateNewSalaryInMoreThanOneMonth(10, 12));
+    }
+
 //    @Test
 //    void testThatEmployeeHasEmployeeOne(){  //Instantiate object of class instead
 //        employee2.setFirstName("Eric");
