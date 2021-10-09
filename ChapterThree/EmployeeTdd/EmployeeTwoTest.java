@@ -20,13 +20,13 @@ class EmployeeTwoTest {
         employee1.setFirstName("Toye");
         assertEquals("Toye", employee1.getFirstName());
     }
-//
-//    @Test
-//    void testThatEmployeesLastName(){   //HasSecondName
-//        employee1.setLastName("Daramola");
-//        assertEquals("Daramola", employee1.getLastName());
-//    }
-//
+
+    @Test
+    void testThatEmployeesLastName(){   //HasSecondName
+        employee1.setLastName("Daramola");
+        assertEquals("Daramola", employee1.getLastName());
+    }
+
 //    @Test
 //    void testThatEmployeesReceivesMonthlySalary() {
 //        employee1.setMonthlySalary(20000);
