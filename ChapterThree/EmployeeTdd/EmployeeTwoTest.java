@@ -41,12 +41,12 @@ class EmployeeTwoTest {
         assertEquals(20000, employee2.getMonthlySalary());
     }
 
-//    @Test
-//    void testThatEmployeesYearlySalariesCanBeCalculated() {   //Calculated by/from what?
-//        employee2.setMonthlySalary(20000.0);
-//        assertEquals(240000,employee2.calculateYearlySalary());
-//    }
-//
+    @Test
+    void testThatEmployeesYearlySalariesCanBeCalculated() {   //Calculated by/from what?
+        employee2.setMonthlySalary(20000.0);
+        assertEquals(240000,employee2.calculateYearlySalary());
+    }
+
 //    @Test
 //    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentage() {   //At what month/year
 //        employee1.setMonthlySalary(20000);
