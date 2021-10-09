@@ -59,16 +59,16 @@ class EmployeeTwoTest {
         assertEquals(264000, employee1.calculateNewSalaryInMoreThanOneMonth(10, 12));
     }
 
-//    @Test
-//    void testThatEmployeeHasEmployeeOne(){  //Instantiate object of class instead
-//        employee2.setFirstName("Eric");
-//        assertEquals("Eric", employee2.getFirstName());
-//        employee2.setLastName("Chineye");
-//        assertEquals("Chineye", employee2.getLastName());
-//        employee2.setEmployees(1);
-//        assertEquals(1, employee2.getEmployees());
-//    }
-//
+    @Test
+    void testThatEmployeeHasEmployeeOne(){  //Instantiate object of class instead
+        employee2.setFirstName("Eric");
+        assertEquals("Eric", employee2.getFirstName());
+        employee2.setLastName("Chineye");
+        assertEquals("Chineye", employee2.getLastName());
+        employee2.setEmployees(1);
+        assertEquals(1, employee2.getEmployees());
+    }
+
 //    @Test
 //    void testThatEmployeeHasEmployeeTwo(){  //Instantiate object of class instead
 //        employee2.setFirstName("Eric");
