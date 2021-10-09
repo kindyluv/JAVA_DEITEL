@@ -47,12 +47,12 @@ class EmployeeTwoTest {
         assertEquals(240000,employee2.calculateYearlySalary());
     }
 
-//    @Test
-//    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentage() {   //At what month/year
-//        employee1.setMonthlySalary(20000);
-//        assertEquals(22000, employee1.calculateNewSalary(10));
-//    }
-//
+    @Test
+    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentage() {   //At what month/year
+        employee1.setMonthlySalary(20000);
+        assertEquals(22000, employee1.calculateNewSalary(10));
+    }
+
 //    @Test
 //    void testThatEmployeesYearlySalariesCanBeIncreasedByTenPercentageInAYear() {
 //        employee1.setMonthlySalary(20000);
