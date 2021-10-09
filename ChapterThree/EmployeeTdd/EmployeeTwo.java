@@ -12,14 +12,14 @@ public class EmployeeTwo {
         this.employee = employee;
     }
 
-//    public void setFirstName(String name) {
-//        this.firstName = name;
-//    }
-//
-//    public String getFirstName() {
-//        return firstName;
-//    }
-//
+    public void setFirstName(String name) {
+        this.firstName = name;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
 //    public void setLastName(String lastName) {
 //        this.lastName = lastName;
 //    }
