@@ -33,14 +33,14 @@ class EmployeeTwoTest {
         assertEquals(20000, employee1.getMonthlySalary());
     }
 
-//    @Test
-//    void testThatEmployeesSalaryMustNotBeBelowZero() {  //CannotBeBelowZero
-//        employee2.setMonthlySalary(20000);
-//        assertEquals(20000, employee2.getMonthlySalary());
-//        employee2.setMonthlySalary(-20000);
-//        assertEquals(20000, employee2.getMonthlySalary());
-//    }
-//
+    @Test
+    void testThatEmployeesSalaryMustNotBeBelowZero() {  //CannotBeBelowZero
+        employee2.setMonthlySalary(20000);
+        assertEquals(20000, employee2.getMonthlySalary());
+        employee2.setMonthlySalary(-20000);
+        assertEquals(20000, employee2.getMonthlySalary());
+    }
+
 //    @Test
 //    void testThatEmployeesYearlySalariesCanBeCalculated() {   //Calculated by/from what?
 //        employee2.setMonthlySalary(20000.0);
