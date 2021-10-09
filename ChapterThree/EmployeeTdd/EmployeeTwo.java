@@ -38,13 +38,12 @@ public class EmployeeTwo {
     public double getMonthlySalary() {
         return monthlySalary;
     }
+
+    public double calculateYearlySalary() {
+       monthlySalary = monthlySalary * 12;
+       return monthlySalary;
+    }
     
-//    public double calculateYearlySalary() {
-//       monthlySalary = monthlySalary * 12;
-//       return monthlySalary;
-//    }
-//
-//
 //    public double calculateNewSalary(double percentage) {
 //        percentage /=100;
 //        monthlySalary += monthlySalary * percentage;
