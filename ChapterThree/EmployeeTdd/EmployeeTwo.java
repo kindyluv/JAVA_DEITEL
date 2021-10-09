@@ -50,13 +50,13 @@ public class EmployeeTwo {
         return monthlySalary;
     }
 
-//    public double calculateNewSalaryInMoreThanOneMonth(double percentage, int months) {
-//        percentage /= 100;
-//        monthlySalary +=  monthlySalary * percentage;
-//        monthlySalary *=months;
-//        return monthlySalary;
-//    }
-//
+    public double calculateNewSalaryInMoreThanOneMonth(double percentage, int months) {
+        percentage /= 100;
+        monthlySalary +=  monthlySalary * percentage;
+        monthlySalary *=months;
+        return monthlySalary;
+    }
+
 //    public void setEmployees(int employee) {
 //        this.employee = employee;
 //    }
