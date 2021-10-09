@@ -57,10 +57,10 @@ public class EmployeeTwo {
         return monthlySalary;
     }
 
-//    public void setEmployees(int employee) {
-//        this.employee = employee;
-//    }
-//
+    public void setEmployees(int employee) {
+        this.employee = employee;
+    }
+
 //    public int getEmployees() {
 //        return employee;
 //    }
