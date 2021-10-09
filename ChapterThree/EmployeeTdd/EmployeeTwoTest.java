@@ -27,11 +27,11 @@ class EmployeeTwoTest {
         assertEquals("Daramola", employee1.getLastName());
     }
 
-//    @Test
-//    void testThatEmployeesReceivesMonthlySalary() {
-//        employee1.setMonthlySalary(20000);
-//        assertEquals(20000, employee1.getMonthlySalary());
-//    }
+    @Test
+    void testThatEmployeesReceivesMonthlySalary() {
+        employee1.setMonthlySalary(20000);
+        assertEquals(20000, employee1.getMonthlySalary());
+    }
 
 //    @Test
 //    void testThatEmployeesSalaryMustNotBeBelowZero() {  //CannotBeBelowZero
