@@ -28,13 +28,13 @@ public class EmployeeTwo {
         return lastName;
     }
 
-//    public double setMonthlySalary(double salary) {
-//        if (salary < 0){
-//            monthlySalary += 0;
-//        }else monthlySalary += salary;
-//        return salary;
-//    }
-//
+    public double setMonthlySalary(double salary) {
+        if (salary < 0){
+            monthlySalary += 0;
+        }else monthlySalary += salary;
+        return salary;
+    }
+
 //    public double getMonthlySalary() {
 //        return monthlySalary;
 //    }
