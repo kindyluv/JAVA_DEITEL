@@ -69,13 +69,13 @@ class EmployeeTwoTest {
         assertEquals(1, employee2.getEmployees());
     }
 
-//    @Test
-//    void testThatEmployeeHasEmployeeTwo(){  //Instantiate object of class instead
-//        employee2.setFirstName("Eric");
-//        assertEquals("Eric", employee2.getFirstName());
-//        employee2.setLastName("Chineye");
-//        assertEquals("Chineye", employee2.getLastName());
-//        employee2.setEmployees(2);
-//        assertEquals(2, employee2.getEmployees());
-//    }
+    @Test
+    void testThatEmployeeHasEmployeeTwo(){  //Instantiate object of class instead
+        employee2.setFirstName("Eric");
+        assertEquals("Eric", employee2.getFirstName());
+        employee2.setLastName("Chineye");
+        assertEquals("Chineye", employee2.getLastName());
+        employee2.setEmployees(2);
+        assertEquals(2, employee2.getEmployees());
+    }
 }
