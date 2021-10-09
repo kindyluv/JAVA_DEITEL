@@ -35,11 +35,10 @@ public class EmployeeTwo {
         return salary;
     }
 
-//    public double getMonthlySalary() {
-//        return monthlySalary;
-//    }
-//
-//
+    public double getMonthlySalary() {
+        return monthlySalary;
+    }
+    
 //    public double calculateYearlySalary() {
 //       monthlySalary = monthlySalary * 12;
 //       return monthlySalary;
