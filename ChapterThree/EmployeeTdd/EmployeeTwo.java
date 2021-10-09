@@ -24,10 +24,10 @@ public class EmployeeTwo {
         this.lastName = lastName;
     }
 
-//    public String getLastName() {
-//        return lastName;
-//    }
-//
+    public String getLastName() {
+        return lastName;
+    }
+
 //    public double setMonthlySalary(double salary) {
 //        if (salary < 0){
 //            monthlySalary += 0;
