@@ -61,7 +61,7 @@ public class EmployeeTwo {
         this.employee = employee;
     }
 
-//    public int getEmployees() {
-//        return employee;
-//    }
+    public int getEmployees() {
+        return employee;
+    }
 }
