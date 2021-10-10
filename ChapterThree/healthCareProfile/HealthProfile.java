@@ -40,12 +40,12 @@ public class HealthProfile {
         this.gender = sex;
 
     }
-//
-//    public String getGender() {
-//        return gender;
-//    }
-//
-//
+
+    public String getGender() {
+        return gender;
+    }
+
+
 //    public void setDayOfBirth(int day) {
 //        boolean isLeapYear = year % 4 == 0 && year % 100 != 0 && year % 400 == 0;
 //        boolean isJanuaryMarchMayJulyAugustOctoberDecember = month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12;
