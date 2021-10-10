@@ -80,10 +80,10 @@ public class HealthProfile {
         }
     }
 
-//    public int getMonthOfBirth() {
-//        return month;
-//    }
-//
+    public int getMonthOfBirth() {
+        return month;
+    }
+
 //    public void setYearOfBirth(int year) {
 //        if (year >=1000 && year <= 9999) {
 //            this.year = year;
