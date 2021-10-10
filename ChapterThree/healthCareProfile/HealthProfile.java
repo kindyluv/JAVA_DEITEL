@@ -20,10 +20,10 @@ public class HealthProfile {
         this.year = year;
     }
 
-//    public void setFirstName(String name) {
-//        this.firstName = name;
-//    }
-//
+    public void setFirstName(String name) {
+        this.firstName = name;
+    }
+
 //    public String getFirstName() {
 //        return firstName;
 //    }
