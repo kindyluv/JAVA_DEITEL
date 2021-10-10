@@ -36,10 +36,10 @@ public class HealthProfile {
         return lastName;
     }
 
-//    public void setGender(String sex) {
-//        this.gender = sex;
-//
-//    }
+    public void setGender(String sex) {
+        this.gender = sex;
+
+    }
 //
 //    public String getGender() {
 //        return gender;
