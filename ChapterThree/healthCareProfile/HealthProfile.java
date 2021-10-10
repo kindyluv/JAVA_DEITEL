@@ -46,28 +46,28 @@ public class HealthProfile {
     }
 
 
-//    public void setDayOfBirth(int day) {
-//        boolean isLeapYear = year % 4 == 0 && year % 100 != 0 && year % 400 == 0;
-//        boolean isJanuaryMarchMayJulyAugustOctoberDecember = month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12;
-//        boolean isSeptemberAprilJuneNovember = month == 4 || month == 6 || month == 9 || month == 11;
-//
-//        if (day >= 1) {
-//            if (month == 2 && isLeapYear && day <= 29) {
-//                this.day = day;
-//            } else if (month == 2 && (!isLeapYear) && day <= 28) {
-//                this.day = day;
-//            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day <= 31) {
-//                this.day = day;
-//            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day >= 32){
-//                this.day = 31;
-//            } else if (isSeptemberAprilJuneNovember && day < 31){
-//                this.day = day;
-//            }else if ((isSeptemberAprilJuneNovember && day >= 31)) {
-//                this.day = 30;
-//            }
-//        }
-//    }
-//
+    public void setDayOfBirth(int day) {
+        boolean isLeapYear = year % 4 == 0 && year % 100 != 0 && year % 400 == 0;
+        boolean isJanuaryMarchMayJulyAugustOctoberDecember = month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12;
+        boolean isSeptemberAprilJuneNovember = month == 4 || month == 6 || month == 9 || month == 11;
+
+        if (day >= 1) {
+            if (month == 2 && isLeapYear && day <= 29) {
+                this.day = day;
+            } else if (month == 2 && (!isLeapYear) && day <= 28) {
+                this.day = day;
+            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day <= 31) {
+                this.day = day;
+            } else if (isJanuaryMarchMayJulyAugustOctoberDecember && day >= 32){
+                this.day = 31;
+            } else if (isSeptemberAprilJuneNovember && day < 31){
+                this.day = day;
+            }else if ((isSeptemberAprilJuneNovember && day >= 31)) {
+                this.day = 30;
+            }
+        }
+    }
+
 //    public int getDayOfBirth() {
 //        return day;
 //    }
