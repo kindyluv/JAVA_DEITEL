@@ -92,8 +92,8 @@ public class HealthProfile {
         }
     }
 
-//    public int getYearOfBirth() {
-//        return year;
-//    }
+    public int getYearOfBirth() {
+        return year;
+    }
 
 }
