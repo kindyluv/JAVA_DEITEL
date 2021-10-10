@@ -32,10 +32,10 @@ public class HealthProfile {
         this.lastName = name;
     }
 
-//    public String getLastName() {
-//        return lastName;
-//    }
-//
+    public String getLastName() {
+        return lastName;
+    }
+
 //    public void setGender(String sex) {
 //        this.gender = sex;
 //
