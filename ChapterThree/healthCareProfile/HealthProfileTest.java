@@ -27,12 +27,12 @@ class HealthProfileTest {
         assertEquals("Mojoyin",record.getLastName());
     }
 
-//    @Test
-//    void testThatHealthProfileHasPatientGender() {
-//        record.setGender("Female");
-//        assertEquals("Female", record.getGender());
-//    }
-//
+    @Test
+    void testThatHealthProfileHasPatientGender() {
+        record.setGender("Female");
+        assertEquals("Female", record.getGender());
+    }
+
 //    @Test
 //    void testThatHealthProfileHasPatientDayOfBirth(){
 //        record.setDayOfBirth(31);
