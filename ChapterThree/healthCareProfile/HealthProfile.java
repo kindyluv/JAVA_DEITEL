@@ -28,10 +28,10 @@ public class HealthProfile {
         return firstName;
     }
 
-//    public void setLastName(String name) {
-//        this.lastName = name;
-//    }
-//
+    public void setLastName(String name) {
+        this.lastName = name;
+    }
+
 //    public String getLastName() {
 //        return lastName;
 //    }
