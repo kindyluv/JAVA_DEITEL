@@ -45,11 +45,11 @@ class HealthProfileTest {
         assertEquals(10, record.getMonthOfBirth());
     }
 
-//    @Test
-//    void testThatHealthProfileHasPatientYearOfBirth(){
-//        record .setYearOfBirth(2000);
-//        assertEquals(2000, record.getYearOfBirth());
-//    }
+    @Test
+    void testThatHealthProfileHasPatientYearOfBirth(){
+        record .setYearOfBirth(2000);
+        assertEquals(2000, record.getYearOfBirth());
+    }
 
     @Test
     void testThatHealthProfileContainsPatientsFullInformation(){
