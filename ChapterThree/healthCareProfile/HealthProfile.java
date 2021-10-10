@@ -72,14 +72,14 @@ public class HealthProfile {
         return day;
     }
 
-//    public void setMonthOfBirth(int month) {
-//        if (month >0 && month < 13){
-//            this.month = month;
-//        }else if(month <0 && month > 12){
-//            this.month = 12;
-//        }
-//    }
-//
+    public void setMonthOfBirth(int month) {
+        if (month >0 && month < 13){
+            this.month = month;
+        }else if(month <0 && month > 12){
+            this.month = 12;
+        }
+    }
+
 //    public int getMonthOfBirth() {
 //        return month;
 //    }
