@@ -33,18 +33,18 @@ class HealthProfileTest {
         assertEquals("Female", record.getGender());
     }
 
-//    @Test
-//    void testThatHealthProfileHasPatientDayOfBirth(){
-//        record.setDayOfBirth(31);
-//        assertEquals(31, record.getDayOfBirth());
-//    }
-//
-//    @Test
-//    void testThatHealthProfileHasPatientMonthOfBirth(){
-//        record .setMonthOfBirth(10);
-//        assertEquals(10, record.getMonthOfBirth());
-//    }
-//
+    @Test
+    void testThatHealthProfileHasPatientDayOfBirth(){
+        record.setDayOfBirth(31);
+        assertEquals(31, record.getDayOfBirth());
+    }
+
+    @Test
+    void testThatHealthProfileHasPatientMonthOfBirth(){
+        record .setMonthOfBirth(10);
+        assertEquals(10, record.getMonthOfBirth());
+    }
+
 //    @Test
 //    void testThatHealthProfileHasPatientYearOfBirth(){
 //        record .setYearOfBirth(2000);
