@@ -35,19 +35,19 @@ class TicTakToeTest {
         assertNotNull(PLAYER2);
     }
 
-//    @Test
-//    void testThatPlayerOneCanMarkTheBoard(){
-//        ticTakToe.currentPlayerMarks(PLAYER1,1);
-//        assertEquals("X", ticTakToe.getPlayArray()[0][0]);
-//        ticTakToe.currentPlayerMarks(PLAYER1,4);
-//        assertEquals("X", ticTakToe.getPlayArray()[1][0]);
-//        ticTakToe.currentPlayerMarks(PLAYER1,5);
-//        assertEquals("X", ticTakToe.getPlayArray()[1][1]);
-//        ticTakToe.currentPlayerMarks(PLAYER1,7);
-//        assertEquals("X", ticTakToe.getPlayArray()[2][0]);
-//        System.out.println(ticTakToe.printOnBoard());
-//    }
-//
+    @Test
+    void testThatPlayerOneCanMarkTheBoard(){
+        ticTakToe.currentPlayerMarks(PLAYER1,1);
+        assertEquals("X", ticTakToe.getPlayArray()[0][0]);
+        ticTakToe.currentPlayerMarks(PLAYER1,4);
+        assertEquals("X", ticTakToe.getPlayArray()[1][0]);
+        ticTakToe.currentPlayerMarks(PLAYER1,5);
+        assertEquals("X", ticTakToe.getPlayArray()[1][1]);
+        ticTakToe.currentPlayerMarks(PLAYER1,7);
+        assertEquals("X", ticTakToe.getPlayArray()[2][0]);
+        System.out.println(ticTakToe.printOnBoard());
+    }
+
 //    @Test
 //    void testThatPlayerTwoCanMarkTheBoard(){
 //        ticTakToe.currentPlayerMarks(PLAYER2,3);
