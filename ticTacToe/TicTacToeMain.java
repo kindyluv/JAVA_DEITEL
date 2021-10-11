@@ -36,13 +36,13 @@ public class TicTacToeMain {
         else if (GameWinner.isDraw(playBoard, numberOfPlaysCounter)) System.out.println("The game is a tie");
     }
 
-//    private static void validateUserInputAndMarkBoardOf(Players player) {
-//        try {
-//            ticTakToe.currentPlayerMarks(player, collectInputFrom(player));
-//        } catch (InputMismatchException | ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
-//            System.err.println(e.getMessage());
-//            validateUserInputAndMarkBoardOf(player);
-//        }
+    private static void validateUserInputAndMarkBoardOf(Players player) {
+        try {
+            ticTakToe.currentPlayerMarks(player, collectInputFrom(player));
+        } catch (InputMismatchException | ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+            validateUserInputAndMarkBoardOf(player);
+        }
     }
 
 //    private static int collectInputFrom(Players player) {
