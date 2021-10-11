@@ -199,22 +199,22 @@ class TicTakToeTest {
 
     }
 
-//    @Test
-//    void testThatGameCanBeWonInLeftDiagonal() {
-//        ticTakToe.currentPlayerMarks(PLAYER1, 9);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 5);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 1);
-//        String prompt = """
-//                | X |   |   |
-//                ____________
-//                |   | X |   |
-//                _____________
-//                |   |   | X |
-//
-//                """;
-//        assertTrue(GameWinner.leftDiagonal(ticTakToe.getPlayArray()));
-//    }
-//
+    @Test
+    void testThatGameCanBeWonInLeftDiagonal() {
+        ticTakToe.currentPlayerMarks(PLAYER1, 9);
+        ticTakToe.currentPlayerMarks(PLAYER1, 5);
+        ticTakToe.currentPlayerMarks(PLAYER1, 1);
+        String prompt = """
+                | X |   |   |
+                ____________
+                |   | X |   |
+                _____________
+                |   |   | X |
+
+                """;
+        assertTrue(GameWinner.leftDiagonal(ticTakToe.getPlayArray()));
+    }
+
 //    @Test
 //    void testThatTwoPlayersCantPlayOnSamePosition(){
 //        ticTakToe.currentPlayerMarks(PLAYER1,4);
