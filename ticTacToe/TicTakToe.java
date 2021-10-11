@@ -17,11 +17,11 @@ class TikTakToe {
         return cellElement;
     }
 
-//    public void switchPlayers() {
-//        if (player == PLAYER1) player = PLAYER2;
-//        else if (player == PLAYER2) player = PLAYER1;
-//    }
-//
+    public void switchPlayers() {
+        if (player == PLAYER1) player = PLAYER2;
+        else if (player == PLAYER2) player = PLAYER1;
+    }
+
 //    public Players getPlayer() {
 //        return player;
 //    }
