@@ -101,21 +101,21 @@ class TicTakToeTest {
         assertTrue(GameWinner.boardFirstRow(ticTakToe.getPlayArray()));
     }
 
-//    @Test
-//    void testThatGameCanBeWonInSecondRow(){
-//        ticTakToe.currentPlayerMarks(PLAYER1,4);
-//        ticTakToe.currentPlayerMarks(PLAYER1,5);
-//        ticTakToe.currentPlayerMarks(PLAYER1,6);
-//        String prompt = """
-//                |   |   |   |
-//                ____________
-//                | X | X | X |
-//                _____________
-//                |   |   |   |
-//
-//                """;
-//        assertTrue(GameWinner.boardSecondRow(ticTakToe.getPlayArray()));
-//    }
+    @Test
+    void testThatGameCanBeWonInSecondRow(){
+        ticTakToe.currentPlayerMarks(PLAYER1,4);
+        ticTakToe.currentPlayerMarks(PLAYER1,5);
+        ticTakToe.currentPlayerMarks(PLAYER1,6);
+        String prompt = """
+                |   |   |   |
+                ____________
+                | X | X | X |
+                _____________
+                |   |   |   |
+
+                """;
+        assertTrue(GameWinner.boardSecondRow(ticTakToe.getPlayArray()));
+    }
 //
 //    @Test
 //    void testThatGameCanBeWonInThirdRow(){
