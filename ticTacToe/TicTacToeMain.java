@@ -39,8 +39,12 @@ public class TicTacToeMain {
     private static void validateUserInputAndMarkBoardOf(Players player) {
         try {
             ticTakToe.currentPlayerMarks(player, collectInputFrom(player));
-        } catch (InputMismatchException | ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
+        } catch (ArrayIndexOutOfBoundsException | IllegalArgumentException e) {
             System.err.println(e.getMessage());
+            validateUserInputAndMarkBoardOf(player);
+        }
+        catch(InputMismatchException e){
+            System.err.println("You can only enter a digit/ number");
             validateUserInputAndMarkBoardOf(player);
         }
     }
