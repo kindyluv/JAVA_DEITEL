@@ -29,12 +29,12 @@ class TicTakToeTest {
         assertNotNull(PLAYER1);
     }
 
-//    @Test
-//    void testThatTicTacToeHasPlayerTwo(){
-//
-//        assertNotNull(PLAYER2);
-//    }
-//
+    @Test
+    void testThatTicTacToeHasPlayerTwo(){
+
+        assertNotNull(PLAYER2);
+    }
+
 //    @Test
 //    void testThatPlayerOneCanMarkTheBoard(){
 //        ticTakToe.currentPlayerMarks(PLAYER1,1);
