@@ -24,11 +24,11 @@ class TicTakToeTest {
         assertEquals(2, Players.values().length);
     }
 
-//    @Test
-//    void testThatTicTacToeHasPlayerOne(){
-//        assertNotNull(PLAYER1);
-//    }
-//
+    @Test
+    void testThatTicTacToeHasPlayerOne(){
+        assertNotNull(PLAYER1);
+    }
+
 //    @Test
 //    void testThatTicTacToeHasPlayerTwo(){
 //
