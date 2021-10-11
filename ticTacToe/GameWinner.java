@@ -23,9 +23,9 @@ public class GameWinner {
                 boardThirdColumn(playerBoard);
     }
 
-//    public static boolean isDraw(String[][] playerBoard, int numberOfPlayerPlays) {
-//       return !hasWon(playerBoard) && numberOfPlayerPlays == 9;
-//    }
+    public static boolean isDraw(String[][] playerBoard, int numberOfPlayerPlays) {
+       return !hasWon(playerBoard) && numberOfPlayerPlays == 9;
+    }
 
     public static boolean boardThirdColumn(String[][] playerBoard) {
         return (!Objects.equals(playerBoard[0][2], empty) &&
