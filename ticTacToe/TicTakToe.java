@@ -13,10 +13,10 @@ class TikTakToe {
         return playArray;
     }
 
-//    public CellElement getCellElement() {
-//        return cellElement;
-//    }
-//
+    public CellElement getCellElement() {
+        return cellElement;
+    }
+
 //    public void switchPlayers() {
 //        if (player == PLAYER1) player = PLAYER2;
 //        else if (player == PLAYER2) player = PLAYER1;
