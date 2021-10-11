@@ -48,21 +48,21 @@ class TicTakToeTest {
         System.out.println(ticTakToe.printOnBoard());
     }
 
-//    @Test
-//    void testThatPlayerTwoCanMarkTheBoard(){
-//        ticTakToe.currentPlayerMarks(PLAYER2,3);
-//        assertEquals("O", ticTakToe.getPlayArray()[0][2]);
-//        ticTakToe.currentPlayerMarks(PLAYER2,2);
-//        assertEquals("O", ticTakToe.getPlayArray()[0][1]);
-//        ticTakToe.currentPlayerMarks(PLAYER2,9);
-//        assertEquals("O", ticTakToe.getPlayArray()[2][2]);
-//        ticTakToe.currentPlayerMarks(PLAYER2,6);
-//        assertEquals("O", ticTakToe.getPlayArray()[1][2]);
-//        ticTakToe.currentPlayerMarks(PLAYER2,8);
-//        assertEquals("O", ticTakToe.getPlayArray()[2][1]);
-//        System.out.println(ticTakToe.printOnBoard());
-//    }
-//
+    @Test
+    void testThatPlayerTwoCanMarkTheBoard(){
+        ticTakToe.currentPlayerMarks(PLAYER2,3);
+        assertEquals("O", ticTakToe.getPlayArray()[0][2]);
+        ticTakToe.currentPlayerMarks(PLAYER2,2);
+        assertEquals("O", ticTakToe.getPlayArray()[0][1]);
+        ticTakToe.currentPlayerMarks(PLAYER2,9);
+        assertEquals("O", ticTakToe.getPlayArray()[2][2]);
+        ticTakToe.currentPlayerMarks(PLAYER2,6);
+        assertEquals("O", ticTakToe.getPlayArray()[1][2]);
+        ticTakToe.currentPlayerMarks(PLAYER2,8);
+        assertEquals("O", ticTakToe.getPlayArray()[2][1]);
+        System.out.println(ticTakToe.printOnBoard());
+    }
+
 //    @Test
 //    void testThatBoardIsEmptyByDefault(){
 //        assertEquals(EMPTY, ticTakToe.getCellElement());
