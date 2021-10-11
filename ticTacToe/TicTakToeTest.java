@@ -149,23 +149,23 @@ class TicTakToeTest {
         assertTrue(GameWinner.boardFirstColumn(ticTakToe.getPlayArray()));
     }
 
-//    @Test
-//    void testThatGameCanBeWonInSecondColumn(){
-//        ticTakToe.currentPlayerMarks(PLAYER2,2);
-//        ticTakToe.currentPlayerMarks(PLAYER2,5);
-//        ticTakToe.currentPlayerMarks(PLAYER2,8);
-//        String prompt = """
-//                |  | O |  |
-//                ____________
-//                |  | O |  |
-//                _____________
-//                |  | O |  |
-//
-//                """;
-//
-//        assertTrue(GameWinner.boardSecondColumn(ticTakToe.getPlayArray()));
-//    }
-//
+    @Test
+    void testThatGameCanBeWonInSecondColumn(){
+        ticTakToe.currentPlayerMarks(PLAYER2,2);
+        ticTakToe.currentPlayerMarks(PLAYER2,5);
+        ticTakToe.currentPlayerMarks(PLAYER2,8);
+        String prompt = """
+                |  | O |  |
+                ____________
+                |  | O |  |
+                _____________
+                |  | O |  |
+
+                """;
+
+        assertTrue(GameWinner.boardSecondColumn(ticTakToe.getPlayArray()));
+    }
+
 //    @Test
 //    void testThatGameCanBeWonInThreeColumn(){
 //        ticTakToe.currentPlayerMarks(PLAYER1,3);
