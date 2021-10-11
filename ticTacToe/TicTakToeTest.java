@@ -222,11 +222,11 @@ class TicTakToeTest {
         assertThrows(IllegalArgumentException.class, ()->ticTakToe.currentPlayerMarks(PLAYER2,4));
     }
 
-//    @Test
-//    void testThatPlayersCantPlayOutsideTheBoard(){
-//        assertThrows(ArrayIndexOutOfBoundsException.class, () ->ticTakToe.currentPlayerMarks(PLAYER1, 10));
-//    }
-//
+    @Test
+    void testThatPlayersCantPlayOutsideTheBoard(){
+        assertThrows(ArrayIndexOutOfBoundsException.class, () ->ticTakToe.currentPlayerMarks(PLAYER1, 10));
+    }
+
 //    @Test
 //    void testThatGameCanEndInDraw(){
 //        ticTakToe.currentPlayerMarks(PLAYER1, 1);
