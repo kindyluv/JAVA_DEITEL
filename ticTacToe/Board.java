@@ -14,7 +14,7 @@ public class Board {
         }
     }
 
-//    public static String[][] getPlayArray() {
-//        return array;
-//    }
+    public static String[][] getPlayArray() {
+        return array;
+    }
 }
