@@ -45,9 +45,9 @@ public class TicTacToeMain {
         }
     }
 
-//    private static int collectInputFrom(Players player) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.printf("%s: ", player.name());
-//        return scanner.nextInt();
-//    }
+    private static int collectInputFrom(Players player) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("%s: ", player.name());
+        return scanner.nextInt();
+    }
 }
