@@ -8,14 +8,13 @@ public class Board {
     public static String[][] array = new String[row][column];
 
 
-    public Board(CellElement cellElement) {
-        for (String[] strings : array) {
-            Arrays.fill(strings, String.valueOf(cellElement));
-        }
-    }
-
-    public static String[][] getPlayArray() {
-        return array;
-    }
-
+//    public Board(CellElement cellElement) {
+//        for (String[] strings : array) {
+//            Arrays.fill(strings, String.valueOf(cellElement));
+//        }
+//    }
+//
+//    public static String[][] getPlayArray() {
+//        return array;
+//    }
 }
