@@ -47,12 +47,12 @@ class TikTakToe {
             case 9 -> validateAndAcceptPlayerPosition(2,2, cellElement);
         }
     }
-//
-//    private void validateAndAcceptPlayerPosition(int rowPosition, int columnPosition,CellElement board) {
-//        if (!playArray[rowPosition][columnPosition].equals(EMPTY.name())) throw new IllegalArgumentException("Position is already filled");
-//        else playArray[rowPosition][columnPosition] = String.valueOf(board);
-//    }
-//
+
+    private void validateAndAcceptPlayerPosition(int rowPosition, int columnPosition,CellElement board) {
+        if (!playArray[rowPosition][columnPosition].equals(EMPTY.name())) throw new IllegalArgumentException("Position is already filled");
+        else playArray[rowPosition][columnPosition] = String.valueOf(board);
+    }
+
 //    public void setPosition(int position, CellElement board){
 //        turnUserInputToBoardPosition(position, board);
 //    }
