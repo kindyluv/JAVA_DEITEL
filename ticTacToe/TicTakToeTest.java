@@ -215,13 +215,13 @@ class TicTakToeTest {
         assertTrue(GameWinner.leftDiagonal(ticTakToe.getPlayArray()));
     }
 
-//    @Test
-//    void testThatTwoPlayersCantPlayOnSamePosition(){
-//        ticTakToe.currentPlayerMarks(PLAYER1,4);
-//        assertEquals("X", ticTakToe.getPlayArray()[1][0]);
-//        assertThrows(IllegalArgumentException.class, ()->ticTakToe.currentPlayerMarks(PLAYER2,4));
-//    }
-//
+    @Test
+    void testThatTwoPlayersCantPlayOnSamePosition(){
+        ticTakToe.currentPlayerMarks(PLAYER1,4);
+        assertEquals("X", ticTakToe.getPlayArray()[1][0]);
+        assertThrows(IllegalArgumentException.class, ()->ticTakToe.currentPlayerMarks(PLAYER2,4));
+    }
+
 //    @Test
 //    void testThatPlayersCantPlayOutsideTheBoard(){
 //        assertThrows(ArrayIndexOutOfBoundsException.class, () ->ticTakToe.currentPlayerMarks(PLAYER1, 10));
