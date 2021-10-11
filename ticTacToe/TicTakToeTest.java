@@ -182,23 +182,23 @@ class TicTakToeTest {
         assertTrue(GameWinner.boardThirdColumn(ticTakToe.getPlayArray()));
     }
 
-//    @Test
-//    void testThatGameCanBeWonInRightDiagonal(){
-//        ticTakToe.currentPlayerMarks(PLAYER2,3);
-//        ticTakToe.currentPlayerMarks(PLAYER2,5);
-//        ticTakToe.currentPlayerMarks(PLAYER2,7);
-//        String prompt = """
-//                |   |  | O |
-//                ____________
-//                |   | O |  |
-//                _____________
-//                | O |   |  |
-//
-//                """;
-//        assertTrue(GameWinner.boardRightDiagonal(ticTakToe.getPlayArray()));
-//
-//    }
-//
+    @Test
+    void testThatGameCanBeWonInRightDiagonal(){
+        ticTakToe.currentPlayerMarks(PLAYER2,3);
+        ticTakToe.currentPlayerMarks(PLAYER2,5);
+        ticTakToe.currentPlayerMarks(PLAYER2,7);
+        String prompt = """
+                |   |  | O |
+                ____________
+                |   | O |  |
+                _____________
+                | O |   |  |
+
+                """;
+        assertTrue(GameWinner.boardRightDiagonal(ticTakToe.getPlayArray()));
+
+    }
+
 //    @Test
 //    void testThatGameCanBeWonInLeftDiagonal() {
 //        ticTakToe.currentPlayerMarks(PLAYER1, 9);
