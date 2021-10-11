@@ -85,22 +85,22 @@ class TicTakToeTest {
         assertTrue(GameWinner.hasWon(ticTakToe.getPlayArray()));
     }
 
-//    @Test
-//    void testThatGameCanBeWonInFirstRow(){
-//        ticTakToe.currentPlayerMarks(PLAYER2,1);
-//        ticTakToe.currentPlayerMarks(PLAYER2,2);
-//        ticTakToe.currentPlayerMarks(PLAYER2,3);
-//        String prompt = """
-//                | O | O | O |
-//                ____________
-//                |   |   |   |
-//                _____________
-//                |   |   |   |
-//
-//                """;
-//        assertTrue(GameWinner.boardFirstRow(ticTakToe.getPlayArray()));
-//    }
-//
+    @Test
+    void testThatGameCanBeWonInFirstRow(){
+        ticTakToe.currentPlayerMarks(PLAYER2,1);
+        ticTakToe.currentPlayerMarks(PLAYER2,2);
+        ticTakToe.currentPlayerMarks(PLAYER2,3);
+        String prompt = """
+                | O | O | O |
+                ____________
+                |   |   |   |
+                _____________
+                |   |   |   |
+
+                """;
+        assertTrue(GameWinner.boardFirstRow(ticTakToe.getPlayArray()));
+    }
+
 //    @Test
 //    void testThatGameCanBeWonInSecondRow(){
 //        ticTakToe.currentPlayerMarks(PLAYER1,4);
