@@ -53,10 +53,10 @@ class TikTakToe {
         else playArray[rowPosition][columnPosition] = String.valueOf(board);
     }
 
-//    public void setPosition(int position, CellElement board){
-//        turnUserInputToBoardPosition(position, board);
-//    }
-//
+    public void setPosition(int position, CellElement board){
+        turnUserInputToBoardPosition(position, board);
+    }
+
 //    public StringBuilder printOnBoard() {
 //        StringBuilder displayPlayboard = new StringBuilder();
 //        displayPlayboard.append("_____________\n");
