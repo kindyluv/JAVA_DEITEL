@@ -22,10 +22,10 @@ class TikTakToe {
         else if (player == PLAYER2) player = PLAYER1;
     }
 
-//    public Players getPlayer() {
-//        return player;
-//    }
-//
+    public Players getPlayer() {
+        return player;
+    }
+
 //    public void currentPlayerMarks(Players player, int position) {
 //        if (position > 0 && position < 10) {
 //            if (player == PLAYER1) setPosition(position, X);
