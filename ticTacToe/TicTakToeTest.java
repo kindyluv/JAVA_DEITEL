@@ -227,25 +227,25 @@ class TicTakToeTest {
         assertThrows(ArrayIndexOutOfBoundsException.class, () ->ticTakToe.currentPlayerMarks(PLAYER1, 10));
     }
 
-//    @Test
-//    void testThatGameCanEndInDraw(){
-//        ticTakToe.currentPlayerMarks(PLAYER1, 1);
-//        ticTakToe.currentPlayerMarks(PLAYER2, 2);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 5);
-//        ticTakToe.currentPlayerMarks(PLAYER2, 3);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 6);
-//        ticTakToe.currentPlayerMarks(PLAYER2, 4);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 7);
-//        ticTakToe.currentPlayerMarks(PLAYER2, 9);
-//        ticTakToe.currentPlayerMarks(PLAYER1, 8);
-//        String prompt = """
-//                _____________
-//                | X | O | O |
-//                | O | X | X |
-//                | X | X | O |
-//                _____________
-//                """;
-//        assertTrue(GameWinner.isDraw(ticTakToe.getPlayArray(), 9));
-//    }
+    @Test
+    void testThatGameCanEndInDraw(){
+        ticTakToe.currentPlayerMarks(PLAYER1, 1);
+        ticTakToe.currentPlayerMarks(PLAYER2, 2);
+        ticTakToe.currentPlayerMarks(PLAYER1, 5);
+        ticTakToe.currentPlayerMarks(PLAYER2, 3);
+        ticTakToe.currentPlayerMarks(PLAYER1, 6);
+        ticTakToe.currentPlayerMarks(PLAYER2, 4);
+        ticTakToe.currentPlayerMarks(PLAYER1, 7);
+        ticTakToe.currentPlayerMarks(PLAYER2, 9);
+        ticTakToe.currentPlayerMarks(PLAYER1, 8);
+        String prompt = """
+                _____________
+                | X | O | O |
+                | O | X | X |
+                | X | X | O |
+                _____________
+                """;
+        assertTrue(GameWinner.isDraw(ticTakToe.getPlayArray(), 9));
+    }
 
 }
