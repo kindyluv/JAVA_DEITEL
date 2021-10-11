@@ -18,23 +18,23 @@ public class TicTacToeMain {
         playGame();
     }
 
-//    public static void playGame() {
-//        String gamePlayer = "";
-//
-//        while (!stopGame) {
-//            Players player = ticTakToe.getPlayer();
-//            if (player == PLAYER1) gamePlayer = "Player 1";
-//            else if (player == PLAYER2) gamePlayer = "Player 2";
-//            validateUserInputAndMarkBoardOf(player);
-//            ++numberOfPlaysCounter;
-//            stopGame = GameWinner.hasWon(playBoard) || GameWinner.isDraw(playBoard, numberOfPlaysCounter);
-//            System.out.println(ticTakToe.printOnBoard());
-//            ticTakToe.switchPlayers();
-//        }
-////        System.out.println(gamePlayer + " IS THE WINNER OF THE GAME!");
-//        if (GameWinner.hasWon(playBoard)) System.out.println(gamePlayer + " has won the game");
-//        else if (GameWinner.isDraw(playBoard, numberOfPlaysCounter)) System.out.println("The game is a tie");
-//    }
+    public static void playGame() {
+        String gamePlayer = "";
+
+        while (!stopGame) {
+            Players player = ticTakToe.getPlayer();
+            if (player == PLAYER1) gamePlayer = "Player 1";
+            else if (player == PLAYER2) gamePlayer = "Player 2";
+            validateUserInputAndMarkBoardOf(player);
+            ++numberOfPlaysCounter;
+            stopGame = GameWinner.hasWon(playBoard) || GameWinner.isDraw(playBoard, numberOfPlaysCounter);
+            System.out.println(ticTakToe.printOnBoard());
+            ticTakToe.switchPlayers();
+        }
+//        System.out.println(gamePlayer + " IS THE WINNER OF THE GAME!");
+        if (GameWinner.hasWon(playBoard)) System.out.println(gamePlayer + " has won the game");
+        else if (GameWinner.isDraw(playBoard, numberOfPlaysCounter)) System.out.println("The game is a tie");
+    }
 
 //    private static void validateUserInputAndMarkBoardOf(Players player) {
 //        try {
