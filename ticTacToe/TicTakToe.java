@@ -57,19 +57,19 @@ class TikTakToe {
         turnUserInputToBoardPosition(position, board);
     }
 
-//    public StringBuilder printOnBoard() {
-//        StringBuilder displayPlayboard = new StringBuilder();
-//        displayPlayboard.append("_____________\n");
-//        for (String[] rows : playArray) {
-//            displayPlayboard.append("| ");
-//            for (String column : rows) {
-//                if (column.equals(String.valueOf(EMPTY))) displayPlayboard.append("_");
-//                else displayPlayboard.append(column);
-//                displayPlayboard.append(" | ");
-//            }
-//            displayPlayboard.append("\n");
-//        }
-//        displayPlayboard.append("_____________");
-//        return displayPlayboard;
-//    }
+    public StringBuilder printOnBoard() {
+        StringBuilder displayPlayboard = new StringBuilder();
+        displayPlayboard.append("_____________\n");
+        for (String[] rows : playArray) {
+            displayPlayboard.append("| ");
+            for (String column : rows) {
+                if (column.equals(String.valueOf(EMPTY))) displayPlayboard.append("_");
+                else displayPlayboard.append(column);
+                displayPlayboard.append(" | ");
+            }
+            displayPlayboard.append("\n");
+        }
+        displayPlayboard.append("_____________");
+        return displayPlayboard;
+    }
 }
