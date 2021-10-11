@@ -63,11 +63,11 @@ class TicTakToeTest {
         System.out.println(ticTakToe.printOnBoard());
     }
 
-//    @Test
-//    void testThatBoardIsEmptyByDefault(){
-//        assertEquals(EMPTY, ticTakToe.getCellElement());
-//    }
-//
+    @Test
+    void testThatBoardIsEmptyByDefault(){
+        assertEquals(EMPTY, ticTakToe.getCellElement());
+    }
+
 //    @Test
 //    void testThatTheGameCanBeWonByOneOfThePlayers(){
 //        assertEquals(EMPTY, ticTakToe.getCellElement());
