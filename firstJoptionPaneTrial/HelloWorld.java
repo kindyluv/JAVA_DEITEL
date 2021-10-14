@@ -26,12 +26,12 @@ public class HelloWorld {
         System.out.println("You entered " + numb + ".");
     }
 
-//    public static void main(String[] args) {
-//        HelloWorld helloWorld = new HelloWorld();
-//        helloWorld.sayHello();
-//        helloWorld.sayHi();
-//        helloWorld.sayGreetings();
-//        helloWorld.enterAnInteger();
-//        helloWorld.enterAnIntegerNumber();
-//    }
+    public static void main(String[] args) {
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.sayHello();
+        helloWorld.sayHi();
+        helloWorld.sayGreetings();
+        helloWorld.enterAnInteger();
+        helloWorld.enterAnIntegerNumber();
+    }
 }
