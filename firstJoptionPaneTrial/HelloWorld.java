@@ -20,12 +20,12 @@ public class HelloWorld {
         JOptionPane.showInputDialog(null, "Enter an integer: ", "Input");
     }
 
-//    public void enterAnIntegerNumber(){
-//        String number = JOptionPane.showInputDialog(null, "Enter an integer");
-//        int numb = Integer.parseInt(number);
-//        System.out.println("You entered " + numb + ".");
-//    }
-//
+    public void enterAnIntegerNumber(){
+        String number = JOptionPane.showInputDialog(null, "Enter an integer");
+        int numb = Integer.parseInt(number);
+        System.out.println("You entered " + numb + ".");
+    }
+
 //    public static void main(String[] args) {
 //        HelloWorld helloWorld = new HelloWorld();
 //        helloWorld.sayHello();
