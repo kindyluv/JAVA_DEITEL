@@ -12,10 +12,10 @@ public class HelloWorld {
         JOptionPane.showInputDialog(null,"Saying Hi To The World", "Love");
     }
 
-//    public void sayGreetings(){
-//        JOptionPane.showConfirmDialog(null, "Welcome", "FullStack",JOptionPane.YES_NO_OPTION);
-//    }
-//
+    public void sayGreetings(){
+        JOptionPane.showConfirmDialog(null, "Welcome", "FullStack",JOptionPane.YES_NO_OPTION);
+    }
+
 //    public void enterAnInteger(){
 //        JOptionPane.showInputDialog(null, "Enter an integer: ", "Input");
 //    }
