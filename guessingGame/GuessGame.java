@@ -43,13 +43,13 @@ public class GuessGame {
         }
     }
 
-//    private void endOfGame(int isPlayingMode, int guessNumber) {
-//        if (isPlayingMode == 0) {
-//            System.out.println("Wooooow!\nYou can never make it, gaddamit!");
-//            System.out.println("Bloody Wimp!!!\nThe answer is: " + guessNumber + "\n OLODO BANTI BANTI");
-//        }
-//    }
-//
+    private void endOfGame(int isPlayingMode, int guessNumber) {
+        if (isPlayingMode == 0) {
+            System.out.println("Wooooow!\nYou can never make it, gaddamit!");
+            System.out.println("Bloody Wimp!!!\nThe answer is: " + guessNumber + "\n OLODO BANTI BANTI");
+        }
+    }
+
 //    private int getGameInputs() {
 //        String game = scannerClass();
 //        int games = Integer.parseInt(game);
