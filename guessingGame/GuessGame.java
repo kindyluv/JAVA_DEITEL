@@ -57,8 +57,8 @@ public class GuessGame {
         return games;
     }
 
-//    public static void main(String[] args) {
-//        GuessGame game = new GuessGame();
-//        game.game();
-//    }
+    public static void main(String[] args) {
+        GuessGame game = new GuessGame();
+        game.game();
+    }
 }
