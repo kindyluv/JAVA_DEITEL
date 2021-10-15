@@ -50,13 +50,13 @@ public class GuessGame {
         }
     }
 
-//    private int getGameInputs() {
-//        String game = scannerClass();
-//        int games = Integer.parseInt(game);
-//        System.out.println("what do you think it is? " + game);
-//        return games;
-//    }
-//
+    private int getGameInputs() {
+        String game = scannerClass();
+        int games = Integer.parseInt(game);
+        System.out.println("what do you think it is? " + game);
+        return games;
+    }
+
 //    public static void main(String[] args) {
 //        GuessGame game = new GuessGame();
 //        game.game();
