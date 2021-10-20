@@ -13,13 +13,13 @@ public class NewArray {
         return newNewArray;
     }
 
-//    public static void radiusCalculator(){
-//        int radius = scanner.nextInt();
-//        int area = (int) (Math.PI * Math.pow(radius, 2));
-//        int circumference = (int) (2 * Math.PI * radius);
-//        System.out.println("area is "+ area + "\n"+"circumference is "+ circumference);
-//    }
-//
+    public static void radiusCalculator(){
+        int radius = scanner.nextInt();
+        int area = (int) (Math.PI * Math.pow(radius, 2));
+        int circumference = (int) (2 * Math.PI * radius);
+        System.out.println("area is "+ area + "\n"+"circumference is "+ circumference);
+    }
+
 //    public static void main(String[] args) {
 //        System.out.println(Arrays.toString(array()));
 //        radiusCalculator();
