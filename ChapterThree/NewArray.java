@@ -20,10 +20,10 @@ public class NewArray {
         System.out.println("area is "+ area + "\n"+"circumference is "+ circumference);
     }
 
-//    public static void main(String[] args) {
-//        System.out.println(Arrays.toString(array()));
-//        radiusCalculator();
-//    }
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(array()));
+        radiusCalculator();
+    }
 
 
 }
