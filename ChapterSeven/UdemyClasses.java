@@ -5,13 +5,13 @@ import java.util.*;
 public class UdemyClasses {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static int[][] array1 = new int[][];
+    private static int[][] array1 = new int[2][2];
 
     public static void main(String[] args) {
         int[] mine = getInt(5);
         for (int i = 0; i < mine.length; i++) {
             System.out.println("Element " + i + " typed value was " + mine[i]);
-            getIntegers();
+            getIntegers(array1);
 
         }
     }

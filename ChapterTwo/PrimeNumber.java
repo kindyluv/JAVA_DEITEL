@@ -1,3 +1,5 @@
+package Chapter5.ChapterTwo;
+
 import java.util.Scanner;
 
 
@@ -26,10 +28,8 @@ prime++;
 
 System.out.println("number is not prime number");
 }
-else{
-
 System.out.println("number is a prime number");
-}
+
 }
 
 }

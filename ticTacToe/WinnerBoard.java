@@ -1,8 +1,6 @@
 package ticTakToe;
 
-import java.util.InputMismatchException;
-
-import static ticTakToe.CellElement.EMPTY;
+import static Chapter5.unknownFiles.CellElement.EMPTY;
 import static ticTakToe.Players.PLAYER1;
 import static ticTakToe.Players.PLAYER2;
 

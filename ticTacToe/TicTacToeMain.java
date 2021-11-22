@@ -3,7 +3,7 @@ package ticTakToe;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static ticTakToe.CellElement.*;
+import static Chapter5.unknownFiles.CellElement.*;
 import static ticTakToe.Players.*;
 
 public class TicTacToeMain {

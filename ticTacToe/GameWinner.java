@@ -2,7 +2,7 @@ package ticTakToe;
 
 import java.util.Objects;
 import static ticTakToe.Board.getPlayArray;
-import static ticTakToe.CellElement.EMPTY;
+import static Chapter5.unknownFiles.CellElement.EMPTY;
 
 public class GameWinner {
  static  String[][] playerBoard = getPlayArray();

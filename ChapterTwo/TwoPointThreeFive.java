@@ -1,3 +1,5 @@
+package Chapter5.ChapterTwo;
+
 import java.util.Scanner;
 
 public class TwoPointThreeFive{
@@ -9,7 +11,7 @@ Scanner input = new Scanner(System.in);
 
 	int drivingCostPerDay, totalMiles, gasolineCost, averageMilesPerGallon, parkingFees, tollsPerDay;
 
-System.out.println("Application displays cost of driving per day");3q`	
+System.out.println("Application displays cost of driving per day");
 System.out.println("Enter total miles driven per day:");
 
 		totalMiles = input.nextInt();

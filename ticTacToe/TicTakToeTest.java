@@ -3,7 +3,7 @@ package ticTakToe;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import static ticTakToe.Players.*;
-import static ticTakToe.CellElement.*;
+import static Chapter5.unknownFiles.CellElement.*;
 
 
 class TicTakToeTest {

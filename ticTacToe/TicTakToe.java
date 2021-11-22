@@ -1,7 +1,7 @@
 package ticTakToe;
 
 import static ticTakToe.Players.*;
-import static ticTakToe.CellElement.*;
+import static Chapter5.unknownFiles.CellElement.*;
 
 class TikTakToe {
     private CellElement cellElement = EMPTY;
