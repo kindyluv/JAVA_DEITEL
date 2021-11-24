@@ -1,8 +1,8 @@
 package phoenixSchool.src.models;
 
+import lombok.Data;
 import phoenixSchool.src.enums.Gender;
 import phoenixSchool.src.enums.Status;
-import lombok.Data;
 
 import java.time.LocalDate;
 
