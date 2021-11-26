@@ -3,8 +3,10 @@ package chapterSeventeen;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class ProcessingEmployees {
 
@@ -71,5 +73,47 @@ public class ProcessingEmployees {
                 .sorted(lastThenFirst)
                 .map(Employee::getName)
                 .forEach(System.out::println);
+
+        // group Employees by department
+        System.out.printf("%nEmployees by department:%n");
+        Map<String, List<Employee>> groupedByDepartment =
+                list.stream()
+                        .collect(Collectors.groupingBy(Employee::getDepartment));
+        groupedByDepartment.forEach(
+                (department, employeesInDepartment) -> {
+                    System.out.printf("%n%s%n", department);
+                    employeesInDepartment.forEach(
+                            employee -> System.out.printf("     %s%n", employee));
+                }
+        );
+        // count number of Employees in each department
+        System.out.printf("%nCount of Employees by department:%n");
+        Map<String, Long> employeeCountByDepartment =
+                list.stream()
+                        .collect(Collectors.groupingBy(Employee::getDepartment,
+                                Collectors.counting()));
+        employeeCountByDepartment.forEach(
+                (department, count) -> System.out.printf(
+                        "%s has %d employee(s)%n", department, count));
+
+        // sum of Employee salaries with DoubleStream sum method
+        System.out.printf(
+                "%nSum of Employees' salaries (via sum method): %.2f%n",
+                list.stream()
+                        .mapToDouble(Employee::getSalary)
+                        .sum());
+// calculate sum of Employee salaries with Stream reduce method
+        System.out.printf(
+                "Sum of Employees' salaries (via reduce method): %.2f%n",
+                list.stream()
+                        .mapToDouble(Employee::getSalary)
+                        .reduce(0, (value1, value2) -> value1 + value2) );
+// average of Employee salaries with DoubleStream average method
+        System.out.printf("Average of Employees' salaries: %.2f%n",
+                list.stream()
+                        .mapToDouble(Employee::getSalary)
+                        .average()
+                        .getAsDouble());
+
     }
 }
