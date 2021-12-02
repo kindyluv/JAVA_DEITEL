@@ -6,7 +6,7 @@ public class PasswordRegex {
     private String password;
 
 
-    public static void setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
         String idRegex = "^[[a-zA-Z0-9\\-_.+=#&$%,]*"+ "[\\+#*-_.$]?[a-z0-9]*"+"[@\\*+-_.:;()$%#><,?]{1,2}]{8,20}$";
 
@@ -18,7 +18,7 @@ public class PasswordRegex {
         }
     }
 
-    static String getPassword(){
+    public String getPassword(){
         return password;
     }
 }
