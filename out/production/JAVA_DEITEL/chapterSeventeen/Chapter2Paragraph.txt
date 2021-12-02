@@ -1,0 +1,115 @@
+A
+I
+a:
+and:
+application:
+arithmetic:
+2
+3
+2
+1
+J
+B
+D
+E
+S
+L
+calculates:
+calculations:
+chapter:
+chapters:
+commandline:
+compares:
+comparison:
+compile:
+computer: 1
+1
+1
+1
+1
+1
+1
+1
+1
+decisions:
+demonstrates:
+display:
+displays: 1
+1
+1
+2
+example: 1
+examples: 1
+F
+for: 1
+from: 1
+H
+result: 1
+results: 2
+run: 1
+java: 1
+jdk: 1
+begin: 1
+C
+R
+inputs: 1
+instruct: 1
+introduces: 1
+last: 1
+later: 1
+learn: 1
+save:
+screen:
+show:
+sum: 1
+1
+1
+1
+that:
+the:
+their:
+then:
+this:
+to:
+tools:
+two: 3
+7
+2
+2
+2
+4
+1
+2
+T
+M
+make: 1
+messages: 2
+N
+numbers: 2
+U
+O
+obtains:
+of:
+on:
+output: 1
+1
+1
+1
+perform:
+present:
+program:
+programming:
+programs: 1
+1
+1
+1
+2
+use: 2
+user: 1
+W
+P
+we: 2
+with: 1
+Y
+how: 2
+you'll: 2
