@@ -1,6 +1,9 @@
 package ChapterFour;
 
+import java.util.regex.Pattern;
+
 public class Encryption {
+    private String id;
 
     public int encrypt(String numb){
         int numb1 = Integer.parseInt(String.valueOf(numb.charAt(0)));
@@ -45,6 +48,8 @@ public class Encryption {
 
         return Integer.parseInt(String.valueOf("" + numb1 + numb2 + numb3 + numb4));
     }
+
+
 }
 
 class MainClass{
