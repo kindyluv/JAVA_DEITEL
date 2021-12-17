@@ -17,12 +17,4 @@ public class FactorialRecursion {
         return n * recursiveFactorial(n-1);
     }
 
-    public static void main(String[] args) {
-        int n = 5;
-        System.out.println(factorial(n));
-
-        for (int i = 0; i <= n; i++) {
-            System.out.printf("Factorial of %d is: %d%n", i, factorial(i));
-        }
-    }
 }
